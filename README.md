@@ -5,12 +5,12 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=CHENJIAMIAN.CHENJIAMIAN)
 
 
-**社区主页**  
+**👪社区主页**  
 
 - [CDSN](https://blog.csdn.net/a571574085)
 - [掘金](https://juejin.cn/user/1081575171693799)
 
-**擅长:**  
+**👍擅长:**  
 
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>
