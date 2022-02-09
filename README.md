@@ -1,4 +1,6 @@
-### Hi 我是CHENJIAMIAN
+<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
+
+<p>Welcome to my page! </br> I'm CHENJIAMIAN, Fullstack developer from <b>China</b>, currently living in  <b>ShenZhen</b>. </p>
 
 ![](https://visitor-badge.glitch.me/badge?page_id=CHENJIAMIAN.CHENJIAMIAN)
 
