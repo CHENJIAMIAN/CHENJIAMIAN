@@ -20,6 +20,9 @@
 
 **🏬我的作品:**  
 - [React-仿tubitv.com项目](chenjiamian.github.io/react-tubi-tv-main/)
+- [大屏风格-数据中心监控管理系统前端](chenjiamian.github.io/th-idc/)
+
+
 
 ---
 
