@@ -19,8 +19,8 @@
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
 
 **🏬我的作品:**  
-- [React-仿tubitv.com项目](chenjiamian.github.io/react-tubi-tv-main/)
-- [大屏风格-数据中心监控管理系统前端](chenjiamian.github.io/th-idc/)
+- [React-仿tubitv.com项目](https://chenjiamian.github.io/react-tubi-tv-main/)
+- [大屏风格-数据中心监控管理系统前端](https://chenjiamian.github.io/TH-IDC/)
 
 
 
