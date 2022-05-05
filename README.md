@@ -21,7 +21,9 @@
 **🏬我的作品:**  
 - [React-仿tubitv.com项目](https://chenjiamian.github.io/react-tubi-tv-main/)
 - [大屏风格-数据中心监控管理系统前端](https://chenjiamian.github.io/TH-IDC/)
-
+- 
+**🖇快捷链接:** 
+https://chenjiamian.github.io/bk-job-frontend/
 
 
 ---
