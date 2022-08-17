@@ -27,6 +27,7 @@
 **🖇快捷链接:** 
 - https://chenjiamian.github.io/bk-job-frontend/
 - https://github.com/CHENJIAMIAN/WxBuildingMaterials 淘建材, 微信小程序, vant
+- https://github.com/CHENJIAMIAN/NiuRebate 乐返多用户端(返利小程序), 支付宝小程序
 
 ---
 
