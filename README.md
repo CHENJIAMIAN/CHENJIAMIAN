@@ -19,6 +19,7 @@
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
 
 **🏬我的作品:**  
+- [城市更新二三维WebGIS展示 vite, vue2.7, ts](https://chenjiamian.github.io/city-update-3d/)
 - [React-仿tubitv.com项目](https://chenjiamian.github.io/react-tubi-tv-main/)
 - [大屏风格-数据中心监控管理系统前端](https://chenjiamian.github.io/TH-IDC/)
 - [股票H5 App, vue2, ant-design-vue](chenjiamian.github.io/stockpage/)
