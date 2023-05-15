@@ -1,73 +1,87 @@
-# 💫 About Me:
-I'm currently working onI'm looking to collaborate onI'm looking for help withI'm currently learningAsk me aboutFun fact
+[![](https://visitcount.itsvg.in/api?id=CHENJIAMIAN&icon=0&color=0)](https://visitcount.itsvg.in)
+[![](https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square&logo=buymeacoffee)](https://www.buymeacoffee.com/CHENJIAMIAN)
 
+---
 
-# 💻 Tech Stack:
-![Threejs](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=CHENJIAMIAN&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=CHENJIAMIAN&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=CHENJIAMIAN&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+### <div align="center">💫 I'm CHENJIAMIAN</div>  
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+- 🔭 I’m currently working on WebGIS/Web3D/Front-end visualization  
+> 🔭 我目前从事WebGIS/Web3D/前端可视化方面的工作
+- 🌱 I’m currently learning Cesium/WebGL/AI  
+> 🌱 我目前正在学习Cesium/WebGL/AI
+- 👯 I’m looking to collaborate on Learning and communication  
+> 👯 我希望在学习和交流方面进行合作
+- ❓ Ask me about anything related to WebGIS  
+> ❓ 问我任何与 WebGIS 相关的问题
+- 📫 How to reach me: [571574085@qq.com](mailto:571574085@qq.com)  
+> 📫 联系方式：571574085@qq.com
+- ⚡ Fun fact: I am an efficiency enthusiast/keyboard shortcut master/tool lover.  
+> ⚡ 有趣的事实：我是一个效率爱好者/键盘快捷键大师/工具爱好者。
 
-### 🔝 Top Contributed Repo
+### 💕 Recent Blog Posts 社区主页
+
+- [CHENJIAMIAN/Blog 笔记库](https://github.com/CHENJIAMIAN/Blog)
+- [CDSN](https://blog.csdn.net/a571574085)
+- [掘金](https://juejin.cn/user/1081575171693799)
+
+### 🖌️ My Work 作品展示
+
+- [城市更新二三维WebGIS展示 vite, vue2.7, ts](https://chenjiamian.github.io/city-update-3d/)
+- [Cesium酷炫城市效果](http://chenjiamian.me/xt3d-local-debug/)
+- [three.js酷炫城市效果](http://chenjiamian.me/threejs-smartcity/)
+- [React-仿tubitv.com项目](https://chenjiamian.github.io/react-tubi-tv-main/)
+- [大屏风格-数据中心监控管理系统前端](https://chenjiamian.github.io/TH-IDC/)
+- [股票H5 App, vue2, ant-design-vue](https://chenjiamian.github.io/StockPage/)
+
+### 🎉 My Repo 作品仓库
+
+- [xt3d-local-debug: xt3d.js是一个非侵入式的cesium扩展包，此仓库用于本地调试它](https://github.com/CHENJIAMIAN/xt3d-local-debug)
+- [3DTiles数据下载 | 23Mb](https://github.com/CHENJIAMIAN/mars3d-max-shihua-3dtiles)
+- [awesome-chatgpt-prompts的中文版 | 包含Aiprm Prompt](https://github.com/CHENJIAMIAN/awesome-chatgpt-prompts-zh-CN)
+- [threejs-smartcity: 炫酷智慧城市效果(threejs加载geojson)](https://github.com/CHENJIAMIAN/threejs-smartcity)
+- [gis-bim-3d-prototype-vue2: 用代码写GIS/BIM项目的原型](https://github.com/CHENJIAMIAN/gis-bim-3d-prototype-vue2)
+- <https://github.com/CHENJIAMIAN/WxBuildingMaterials> 淘建材, 微信小程序, vant
+- <https://github.com/CHENJIAMIAN/NiuRebate> 乐返多用户端(返利小程序), 支付宝小程序
+- <https://github.com/CHENJIAMIAN/upland-vue3-ts-vite-vant-tailwind> 地图地块买卖系统
+- [Cesium加载3dtiles数据(OSGB格式转换而来), src/data下存放着转换而来的数据](https://github.com/CHENJIAMIAN/Cesium-Load-3DTiles-OSGB-Transformed)
+- [CesiumLoadGoogleEarth: Cesium加载谷歌地球影像](https://github.com/CHENJIAMIAN/CesiumLoadGoogleEarth)
+
+### 👨‍💻 WebPage/Book Quick Link 网页/电子书快捷链接
+
+- [《CSGrandeur的WebGL学习笔记》](https://github.com/CHENJIAMIAN/note-of-learningwebgl-of-CSGrandeur)
+- [《OpenLayers 3.x Cookbook》 | 中文版 | zh-cn | OpenLayers 3.x食谱-第二版 | Doc and Source Code](https://github.com/CHENJIAMIAN/OpenLayers-3.x-Cookbook-Doc)
+- [《GeoServer-Beginners-Guide》: 可用谷歌翻译](https://github.com/CHENJIAMIAN/GeoServer-Beginners-Guide)
+- [《Fast-TypeScript-Syntax-Usage》: 快速找到TypeScript语法的使用方式](https://github.com/CHENJIAMIAN/Fast-TypeScript-Syntax-Usage)
+- <https://chenjiamian.github.io/bk-job-frontend/> 蓝鲸作业平台预览
+
+### 🔝 Top Contributed Repo 最高贡献库
+
 ![](https://github-contributor-stats.vercel.app/api?username=CHENJIAMIAN&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=CHENJIAMIAN&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<div align="center">
-<img src="https://CHENJIAMIAN.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
-</div>  
-  
+## My Skill Set 技能树
 
-### <div align="center">I'm Rishav, a full-time full-stack freelance developer 👨‍💻 working remotely since 2013 🚀</div>  
-  
-<p>Welcome to my page! </br> I'm CHENJIAMIAN, Fullstack developer from <b>China</b>, currently living in  <b>ShenZhen</b>. </p>
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-- 🔭 I’m currently working on [Github Profilinator](https://github.com/CHENJIAMIAN/github-profilinator)  
-- 🌱 I’m currently learning Hyperledger and Kubernetes  
-- ❓ Ask me about anything related to MERN stack and related technologies  
-- ⚡ Fun fact: I use tabs over spaces  
-
-  
-
-<br/>  
-
-
-## My Skill Set  
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=CHENJIAMIAN&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 <table><tr><td valign="top" width="33%">
 
+### Frontend 前端
 
-### Frontend  
 <div align="center">  
 <a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" /></a>  
 <a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"><img style="margin: 10px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png" alt="Bootstrap" height="45" /></a>  
+<a href="https://www.typescriptlang.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" /></a>
+<a href="https://cesium.com/" target="_blank"><img style="margin: 10px" src="https://img.shields.io/badge/cesium-black?style=for-the-badge&logo=cesium&logoColor=white" alt="Electron" height="50" /></a>  
+<a href="https://threejs.org/" target="_blank"><img style="margin: 10px" src="https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white" height="50" /></a>  
 <a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>  
 <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>  
-<a href="https://www.electronjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/electron-original.svg" alt="Electron" height="50" /></a>  
 <a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
-<a href="https://www.typescriptlang.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" /></a>  
-<a href="https://www.adobe.com/in/products/illustrator.html" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/adobe_illustrator-icon.svg" alt="Illustrator" height="50" /></a>  
-<a href="https://www.chartjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/logo-title.svg" alt="Chart.js" height="50" /></a>  
 </div>
 
 </td><td valign="top" width="33%">
 
+### Backend 后端
 
-
-### Backend  
 <div align="center">  
 <a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
 <a href="https://www.typescriptlang.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" /></a>  
@@ -83,9 +97,8 @@ Here are some ideas to get you started:
 
 </td><td valign="top" width="33%">
 
+### DevOps 开发运维
 
-
-### DevOps  
 <div align="center">  
 <a href="https://aws.amazon.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/amazonwebservices-original-wordmark.svg" alt="AWS" height="50" /></a>  
 <a href="https://cloud.google.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/google_cloud-icon.svg" alt="GCP" height="50" /></a>  
@@ -97,74 +110,11 @@ Here are some ideas to get you started:
 
 </td></tr></table>  
 
-<br/>  
+---
 
+# 📊 GitHub Stats 统计
 
-## Connect with me  
-<div align="center">
-<a href="https://github.com/CHENJIAMIAN" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
-<a href="https://twitter.com/iamCHENJIAMIAN" target="_blank">
-<img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
-</a>
-<a href="https://dev.to/CHENJIAMIAN" target="_blank">
-<img src=https://img.shields.io/badge/dev.to-%2308090A.svg?&style=for-the-badge&logo=dev.to&logoColor=white alt=devto style="margin-bottom: 5px;" />
-</a>
-<a href="https://linkedin.com/in/CHENJIAMIAN" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>
-<a href="https://www.facebook.com/iamCHENJIAMIAN" target="_blank">
-<img src=https://img.shields.io/badge/facebook-%232E87FB.svg?&style=for-the-badge&logo=facebook&logoColor=white alt=facebook style="margin-bottom: 5px;" />
-</a>
-<a href="https://instagram.com/iamCHENJIAMIAN" target="_blank">
-<img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
-</a>  
-</div>  
-  
-<br/>  
+![](https://github-readme-stats.vercel.app/api?username=CHENJIAMIAN&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=CHENJIAMIAN&theme=dark&hide_border=false)<br/>
 
-
-## Recent Blog Posts  
-<!-- BLOG-POST-LIST:START -->  
-If things goes well, this section should automatically be replaced by a list of your blog posts after you commit your readme file. 
-<!-- BLOG-POST-LIST:END -->  
-
-<br/>  
-
-<div align="center">
-<img src="https://komarev.com/ghpvc/?username=CHENJIAMIAN&&style=flat-square" align="center" />
-</div>  
-  
-<br/>  
-
-<div align="center">
-            <a href="https://www.buymeacoffee.com/CHENJIAMIAN" target="_blank" style="display: inline-block;">
-                <img
-                    src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square&logo=buymeacoffee" 
-                    align="center"
-                />
-            </a></div>
-<br />
-
-
-
-
-**👪社区主页**  
-
-- [CDSN](https://blog.csdn.net/a571574085)
-- [掘金](https://juejin.cn/user/1081575171693799)
-
-**🏬我的作品:**  
-- [城市更新二三维WebGIS展示 vite, vue2.7, ts](https://chenjiamian.github.io/city-update-3d/)
-- [React-仿tubitv.com项目](https://chenjiamian.github.io/react-tubi-tv-main/)
-- [大屏风格-数据中心监控管理系统前端](https://chenjiamian.github.io/TH-IDC/)
-- [股票H5 App, vue2, ant-design-vue](https://chenjiamian.github.io/StockPage/)
-
-
-**🖇快捷链接:** 
-- https://chenjiamian.github.io/bk-job-frontend/
-- https://github.com/CHENJIAMIAN/WxBuildingMaterials 淘建材, 微信小程序, vant
-- https://github.com/CHENJIAMIAN/NiuRebate 乐返多用户端(返利小程序), 支付宝小程序
-- https://github.com/CHENJIAMIAN/upland-vue3-ts-vite-vant-tailwind 地图地块买卖系统
 ---
