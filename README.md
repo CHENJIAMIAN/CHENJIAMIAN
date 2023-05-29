@@ -34,7 +34,7 @@
 - [股票H5 App, vue2, ant-design-vue](https://chenjiamian.github.io/StockPage/)
 
 ### 🎉 My Repo 作品仓库
-
+- [ExtractorGlbFromB3DM: 提取b3dm中的glb文件, 以便获取里面的模型/材质图片等](https://github.com/CHENJIAMIAN/ExtractorGlbFromB3DM/tree/master)
 - [xt3d-local-debug: xt3d.js是一个非侵入式的cesium扩展包，此仓库用于本地调试它](https://github.com/CHENJIAMIAN/xt3d-local-debug)
 - [3DTiles数据下载 | 23Mb](https://github.com/CHENJIAMIAN/mars3d-max-shihua-3dtiles)
 - [awesome-chatgpt-prompts的中文版 | 包含Aiprm Prompt](https://github.com/CHENJIAMIAN/awesome-chatgpt-prompts-zh-CN)
