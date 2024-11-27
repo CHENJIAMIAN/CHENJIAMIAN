@@ -2,7 +2,6 @@
 [![](https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square&logo=buymeacoffee)](https://www.buymeacoffee.com/CHENJIAMIAN)
 
 ---
-
 ### <div align="center">💫 I'm CHENJIAMIAN</div>  
 
 - 🔭 I’m currently working on WebGIS/Web3D/Front-end visualization  
@@ -23,6 +22,26 @@
 - [CHENJIAMIAN/Blog 笔记库](https://github.com/CHENJIAMIAN/Blog)
 - [CDSN](https://blog.csdn.net/a571574085)
 - [掘金](https://juejin.cn/user/1081575171693799)
+
+### 🎇Recently 最近
+
+- **[MeshReflectorMaterial](https://github.com/CHENJIAMIAN/MeshReflectorMaterial)**  
+  提供 Reflector 和 MeshReflectorMaterial 以及 ReflectorMesh，不依赖于 React 或 Vue。  
+
+- **[Blog](https://github.com/CHENJIAMIAN/Blog)**  
+  Obsidian 笔记库，我的笔记分享平台，并根据 GitHub 工作流自动构建 VitePress 博客。  
+
+- **[copy-folder-contents](https://github.com/CHENJIAMIAN/copy-folder-contents)**  
+  一款用于复制文件夹里各文件内容到剪贴板的 VSCode 插件。  
+
+- **[vscode-extension-open-any-filetype-in-browser](https://github.com/CHENJIAMIAN/vscode-extension-open-any-filetype-in-browser)**  
+  允许用户直接从编辑器在浏览器中打开本地文件的 VSCode 扩展。  
+
+- **[reverse-uiotos-community](https://github.com/CHENJIAMIAN/reverse-uiotos-community)**  
+  逆向 UIOTOS 前端零代码开发平台。  
+
+- **[InterpolatedGradientMaterial](https://github.com/CHENJIAMIAN/InterpolatedGradientMaterial)**  
+  展示贴面温度热力图的 Three.js 演示。  
 
 ### 🖌️ My Work 作品展示
 
