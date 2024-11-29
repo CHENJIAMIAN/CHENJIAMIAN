@@ -25,6 +25,9 @@
 
 ### 🎇Recently 最近
 
+- **[BoxProjectedReflector](https://github.com/CHENJIAMIAN/BoxProjectedReflector)**  
+  提供了一个独立于React和Vue的、简单有效的反射效果实现方案。 与`MeshReflectorMaterial`相比，该方案更轻量级。
+  
 - **[MeshReflectorMaterial](https://github.com/CHENJIAMIAN/MeshReflectorMaterial)**  
   提供 Reflector 和 MeshReflectorMaterial 以及 ReflectorMesh，不依赖于 React 或 Vue。  
 
