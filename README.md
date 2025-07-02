@@ -4,45 +4,32 @@
 ---
 ### <div align="center">💫 I'm CHENJIAMIAN</div>  
 
-- 🔭 I’m currently working on WebGIS/Web3D/Front-end visualization  
-> 🔭 我目前从事WebGIS/Web3D/前端可视化方面的工作
-- 🌱 I’m currently learning Cesium/WebGL/AI  
-> 🌱 我目前正在学习Cesium/WebGL/AI
-- 👯 I’m looking to collaborate on Learning and communication  
-> 👯 我希望在学习和交流方面进行合作
-- ❓ Ask me about anything related to WebGIS  
-> ❓ 问我任何与 WebGIS 相关的问题
-- 📫 How to reach me: [571574085@qq.com](mailto:571574085@qq.com)  
-> 📫 联系方式：571574085@qq.com
-- ⚡ Fun fact: I am an efficiency enthusiast/keyboard shortcut master/tool lover.  
-> ⚡ 有趣的事实：我是一个效率爱好者/键盘快捷键大师/工具爱好者。
+- 🔭 我目前从事WebGIS/Web3D/前端可视化方面的工作（I’m currently working on WebGIS/Web3D/Front-end visualization）
+- ⚡ 我是一个效率爱好者/键盘快捷键大师/工具爱好者（I am an efficiency enthusiast/keyboard shortcut master/tool lover）
 
 ### 💕 Recent Blog Posts 社区主页
 
+- [My Repositories](https://github.com/CHENJIAMIAN?tab=repositories&q=&type=source&language=&sort=)
 - [CHENJIAMIAN/Blog 笔记库](https://github.com/CHENJIAMIAN/Blog)
 - [CDSN](https://blog.csdn.net/a571574085)
 - [掘金](https://juejin.cn/user/1081575171693799)
 
 ### 🎇Recently 最近
 
+- **[Tech-Stack-Analyzer-chrome-extension](https://github.com/CHENJIAMIAN/Tech-Stack-Analyzer-chrome-extension)**  
+  利用AI分析网站技术栈的Chrome插件
 - **[BoxProjectedReflector](https://github.com/CHENJIAMIAN/BoxProjectedReflector)**  
   提供了一个独立于React和Vue的、简单有效的反射效果实现方案。 与`MeshReflectorMaterial`相比，该方案更轻量级。
-  
 - **[MeshReflectorMaterial](https://github.com/CHENJIAMIAN/MeshReflectorMaterial)**  
   提供 Reflector 和 MeshReflectorMaterial 以及 ReflectorMesh，不依赖于 React 或 Vue。  
-
 - **[Blog](https://github.com/CHENJIAMIAN/Blog)**  
   Obsidian 笔记库，我的笔记分享平台，并根据 GitHub 工作流自动构建 VitePress 博客。  
-
 - **[copy-folder-contents](https://github.com/CHENJIAMIAN/copy-folder-contents)**  
   一款用于复制文件夹里各文件内容到剪贴板的 VSCode 插件。  
-
 - **[vscode-extension-open-any-filetype-in-browser](https://github.com/CHENJIAMIAN/vscode-extension-open-any-filetype-in-browser)**  
   允许用户直接从编辑器在浏览器中打开本地文件的 VSCode 扩展。  
-
 - **[reverse-uiotos-community](https://github.com/CHENJIAMIAN/reverse-uiotos-community)**  
   逆向 UIOTOS 前端零代码开发平台。  
-
 - **[InterpolatedGradientMaterial](https://github.com/CHENJIAMIAN/InterpolatedGradientMaterial)**  
   展示贴面温度热力图的 Three.js 演示。  
 
@@ -76,18 +63,9 @@
 - [《Fast-TypeScript-Syntax-Usage》: 快速找到TypeScript语法的使用方式](https://github.com/CHENJIAMIAN/Fast-TypeScript-Syntax-Usage)
 - <https://chenjiamian.github.io/bk-job-frontend/> 蓝鲸作业平台预览
 
-### 🔝 Top Contributed Repo 最高贡献库
-
-![](https://github-contributor-stats.vercel.app/api?username=CHENJIAMIAN&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
 ---
 
-## My Skill Set 技能树
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=CHENJIAMIAN&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-<table><tr><td valign="top" width="33%">
-
-### Frontend 前端
+### 熟悉
 
 <div align="center">  
 <a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" /></a>  
@@ -99,44 +77,5 @@
 <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>  
 <a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
 </div>
-
-</td><td valign="top" width="33%">
-
-### Backend 后端
-
-<div align="center">  
-<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
-<a href="https://www.typescriptlang.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" /></a>  
-<a href="https://nodejs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" /></a>  
-<a href="https://www.linux.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="50" /></a>  
-<a href="https://www.nginx.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nginx-original.svg" alt="Nginx" height="50" /></a>  
-<a href="https://www.python.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" /></a>  
-<a href="https://expressjs.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="Express.js" height="50" /></a>  
-<a href="https://github.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>  
-<a href="https://redux.js.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/redux-original.svg" alt="Redux" height="50" /></a>  
-<a href="https://www.gnu.org/software/bash/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" /></a>  
-</div>
-
-</td><td valign="top" width="33%">
-
-### DevOps 开发运维
-
-<div align="center">  
-<a href="https://aws.amazon.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/amazonwebservices-original-wordmark.svg" alt="AWS" height="50" /></a>  
-<a href="https://cloud.google.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/google_cloud-icon.svg" alt="GCP" height="50" /></a>  
-<a href="https://kubernetes.io/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/kubernetes-icon.svg" alt="Kubernetes" height="50" /></a>  
-<a href="https://www.linux.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="50" /></a>  
-<a href="https://github.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>  
-<a href="https://www.gnu.org/software/bash/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" /></a>  
-</div>
-
-</td></tr></table>  
-
----
-
-# 📊 GitHub Stats 统计
-
-![](https://github-readme-stats.vercel.app/api?username=CHENJIAMIAN&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=CHENJIAMIAN&theme=dark&hide_border=false)<br/>
 
 ---
