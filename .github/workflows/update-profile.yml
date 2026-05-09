@@ -23,7 +23,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Test updater
         run: node --test test/update-recent-projects.test.mjs
@@ -37,6 +37,8 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_HTTP_REFERER: https://cherry-ai.com
+          LLM_X_TITLE: Cherry Studio
         run: node scripts/update-recent-projects.mjs
 
       - name: Commit changes

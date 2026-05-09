@@ -26,6 +26,7 @@ GitHub Profile README 的 `Recently 最近` 区块目前需要手工维护。用
 - `LLM_MODEL`：可选，默认 `qwen-3-235b-a22b-instruct-2507`。
 - `LLM_HTTP_REFERER`：可选，默认 profile 仓库地址。
 - `LLM_X_TITLE`：可选，默认 `GitHub Profile Updater`。
+- `LLM_USER_AGENT`：可选，默认模拟 Cherry Studio 请求。
 
 ## 数据流
 

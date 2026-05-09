@@ -180,10 +180,19 @@ async function summarizeWithLlm(repo, topics, readmeExcerpt) {
   const response = await fetch(`${LLM_BASE_URL}/chat/completions`, {
     method: 'POST',
     headers: {
-      Accept: 'application/json',
+      Accept: '*/*',
+      'Accept-Language': process.env.LLM_ACCEPT_LANGUAGE || 'zh-CN',
       Authorization: `Bearer ${apiKey}`,
       'Content-Type': 'application/json',
       'HTTP-Referer': process.env.LLM_HTTP_REFERER || `https://github.com/${OWNER}/${PROFILE_REPO}`,
+      Priority: 'u=1, i',
+      'Sec-CH-UA': '"Not(A:Brand";v="8", "Chromium";v="144"',
+      'Sec-CH-UA-Mobile': '?0',
+      'Sec-CH-UA-Platform': '"Windows"',
+      'Sec-Fetch-Dest': 'empty',
+      'Sec-Fetch-Mode': 'cors',
+      'Sec-Fetch-Site': 'cross-site',
+      'User-Agent': process.env.LLM_USER_AGENT || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) CherryStudio/1.9.1 Chrome/144.0.7559.236 Electron/40.8.0 Safari/537.36',
       'X-Title': process.env.LLM_X_TITLE || 'GitHub Profile Updater',
     },
     body: JSON.stringify({
@@ -216,12 +225,15 @@ async function enrichRepo(repo, { noLlm }) {
   ]);
 
   let summary = fallbackSummary(repo);
+  let usedFallback = noLlm;
 
   if (!noLlm) {
     try {
       summary = await summarizeWithLlm(repo, topics, readmeExcerpt);
+      usedFallback = false;
     } catch (error) {
       console.warn(`LLM summary failed for ${repo.name}: ${error.message}`);
+      usedFallback = true;
     }
   }
 
@@ -230,6 +242,7 @@ async function enrichRepo(repo, { noLlm }) {
     html_url: repo.html_url,
     language: repo.language,
     summary,
+    usedFallback,
   };
 }
 
@@ -246,6 +259,10 @@ async function run() {
 
   for (const repo of selected) {
     projects.push(await enrichRepo(repo, { noLlm: args.noLlm }));
+  }
+
+  if (!args.noLlm && projects.every((project) => project.usedFallback)) {
+    throw new Error('LLM summarization failed for every project; refusing to overwrite README with fallback descriptions.');
   }
 
   const generated = formatProjectList(projects);
