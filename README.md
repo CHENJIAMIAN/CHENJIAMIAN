@@ -21,6 +21,12 @@
 
 ### 🎇 Recently 最近
 
+- **[codex-ai-replies-cli](https://github.com/CHENJIAMIAN/codex-ai-replies-cli)**<br>
+  提取 Codex 会话 rollout 中的 assistant、tool、MCP 事件，便于复盘和分析。（JavaScript）
+- **[codex-autopilot-npm](https://github.com/CHENJIAMIAN/codex-autopilot-npm)**<br>
+  Windows CLI，可按轮次恢复 Codex 会话并持续推进任务。（JavaScript）
+- **[codex-autopilot](https://github.com/CHENJIAMIAN/codex-autopilot)**<br>
+  Windows 上用于自动恢复和推进 Codex CLI 会话的 PowerShell 包装工具。（PowerShell）
 - **[vscode-extension-multi-cursor-ai-generate](https://github.com/CHENJIAMIAN/vscode-extension-multi-cursor-ai-generate)**  
   对多光标/多选区并发调用 OpenAI 风格端点生成文本，支持限流、重试、流式插入、状态栏与日志。（TypeScript, MIT）
 - **[apifox-testcase-corpus](https://github.com/CHENJIAMIAN/apifox-testcase-corpus)**  
