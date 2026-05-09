@@ -9,7 +9,7 @@ const PROFILE_REPO = process.env.PROFILE_REPO || OWNER;
 const RECENT_LIMIT = Number.parseInt(process.env.RECENT_PROJECT_LIMIT || '13', 10);
 const README_PATH = process.env.README_PATH || 'README.md';
 const GITHUB_API = process.env.GITHUB_API_URL || 'https://api.github.com';
-const LLM_BASE_URL = (process.env.LLM_BASE_URL || 'https://cerabras.571574085.xyz/v1').replace(/\/$/, '');
+const LLM_BASE_URL = (process.env.LLM_BASE_URL || 'https://api.cerebras.ai/v1').replace(/\/$/, '');
 const LLM_MODEL = process.env.LLM_MODEL || 'qwen-3-235b-a22b-instruct-2507';
 
 const START_MARKER = '<!-- recent-projects:start -->';

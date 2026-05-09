@@ -4,7 +4,7 @@
 
 **Goal:** 为 GitHub Profile README 增加自动更新近期项目能力，并用 OpenAI 兼容 LLM 生成项目中文描述。
 
-**Architecture:** 使用一个无依赖 Node.js 脚本处理 GitHub API、LLM 调用和 README marker 替换。脚本按 `pushed_at` 选择最近公开非 fork、非 archived 仓库。GitHub Actions 支持手动执行；当前 LLM 域名会拦截 GitHub-hosted runner，因此定时触发暂不启用。
+**Architecture:** 使用一个无依赖 Node.js 脚本处理 GitHub API、LLM 调用和 README marker 替换。脚本按 `pushed_at` 选择最近公开非 fork、非 archived 仓库。GitHub Actions 定时执行脚本，也支持手动执行。
 
 **Tech Stack:** Node.js 20+、node:test、GitHub Actions、OpenAI-compatible Chat Completions API。
 
@@ -80,6 +80,7 @@ Expected: 输出会更新的 README 内容摘要，不写文件。
 
 支持：
 
+- `schedule`
 - `workflow_dispatch`
 
 **Step 2: 设置环境变量**

@@ -9,7 +9,7 @@ GitHub Profile README 的 `Recently 最近` 区块目前需要手工维护。用
 采用“仓库脚本 + GitHub Actions”的混合方案：
 
 - `scripts/update-recent-projects.mjs` 负责拉取 GitHub 公开仓库、调用 LLM 总结、替换 README 自动区块。
-- `.github/workflows/update-profile.yml` 支持手动触发。
+- `.github/workflows/update-profile.yml` 负责每天定时运行，也支持手动触发。
 - 本地和 GitHub Actions 使用同一份脚本。
 - README 使用 marker 包裹自动维护内容：
   - `<!-- recent-projects:start -->`
@@ -22,7 +22,7 @@ GitHub Profile README 的 `Recently 最近` 区块目前需要手工维护。用
 环境变量：
 
 - `LLM_API_KEY`：必填，仓库 secret，不写入代码。
-- `LLM_BASE_URL`：可选，默认 `https://cerabras.571574085.xyz/v1`。
+- `LLM_BASE_URL`：可选，默认 `https://api.cerebras.ai/v1`。
 - `LLM_MODEL`：可选，默认 `qwen-3-235b-a22b-instruct-2507`。
 - `LLM_HTTP_REFERER`：可选，默认 profile 仓库地址。
 - `LLM_X_TITLE`：可选，默认 `GitHub Profile Updater`。
@@ -44,5 +44,5 @@ GitHub Profile README 的 `Recently 最近` 区块目前需要手工维护。用
 - 不把 API key 写入仓库。
 - 普通运行必须配置 `LLM_API_KEY`；本地验证可显式使用 `--no-llm`。
 - 单个项目的 LLM 调用失败不阻塞整体更新，会退回仓库原 description。
-- 当前 LLM 域名会对 GitHub-hosted runner 返回 Cloudflare challenge；本地可正常调用。定时触发暂不启用，避免每日失败。若后续改用不拦截 GitHub Actions 的端点，可恢复 schedule。
+- 已切换到 Cerebras 官方端点；GitHub-hosted runner 已验证可正常调用。
 - 自动区块之外的 README 内容不被脚本改动。
