@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "update:recent": "node scripts/update-recent-projects.mjs",
+    "update:recent:dry": "node scripts/update-recent-projects.mjs --dry-run --no-llm"
+  }
+}

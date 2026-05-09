@@ -21,6 +21,7 @@
 
 ### 🎇 Recently 最近
 
+<!-- recent-projects:start -->
 - **[codex-ai-replies-cli](https://github.com/CHENJIAMIAN/codex-ai-replies-cli)**<br>
   提取 Codex 会话 rollout 中的 assistant、tool、MCP 事件，便于复盘和分析。（JavaScript）
 - **[codex-autopilot-npm](https://github.com/CHENJIAMIAN/codex-autopilot-npm)**<br>
@@ -31,22 +32,23 @@
   工作日数据看板，用于查看工作日、休息日和日期节奏。（HTML）
 - **[screen-timeline-recorder](https://github.com/CHENJIAMIAN/screen-timeline-recorder)**<br>
   Windows 本地屏幕时间线录制工具，包含查看器、托盘控制、自启动和 ffmpeg 分段。（Rust）
-- **[industrial-glb-exporter](https://github.com/CHENJIAMIAN/industrial-glb-exporter)**<br>
-  面向工业模型的 Web GLB/GLTF 导出与优化工具，支持按场景选择导出精度。（JavaScript）
 - **[vscode-extension-multi-cursor-ai-generate](https://github.com/CHENJIAMIAN/vscode-extension-multi-cursor-ai-generate)**<br>
   对多光标/多选区并发调用 OpenAI 风格端点生成文本，支持限流、重试、流式插入、状态栏与日志。（TypeScript, MIT）
 - **[threejs-dissolve-playground](https://github.com/CHENJIAMIAN/threejs-dissolve-playground)**<br>
   Three.js 溶解 Shader 交互演示，支持阈值、边缘发光、颜色和几何体实时控制。（HTML）
-- **[coze-coding-skills](https://github.com/CHENJIAMIAN/coze-coding-skills)**<br>
-  扣子编程 Skills 集合，沉淀可复用开发技能模块，支持 Python 和 TypeScript SDK。（Python）
-- **[html_to_ppt](https://github.com/CHENJIAMIAN/html_to_ppt)**<br>
-  HTML 转 PowerPoint（目前适配 ChatGLM 生成的网页 PPT）。
 - **[open-templates](https://github.com/CHENJIAMIAN/open-templates)**<br>
   飞书 Aily 与妙搭同款灵感模板库，收录 Doc、Slides、Webpage 等高质量模板和 CLI。（JavaScript）
-- **[Blog](https://github.com/CHENJIAMIAN/Blog)**<br>
-  Obsidian 笔记库 | 我的笔记分享 | 基于 GitHub Actions 自动构建 VitePress 博客。
 - **[agent-cli-updater](https://github.com/CHENJIAMIAN/agent-cli-updater)**<br>
   Windows 上用于更新 agent CLI 工具的轻量脚本。（PowerShell）
+- **[Blog](https://github.com/CHENJIAMIAN/Blog)**<br>
+  Obsidian 笔记库 | 我的笔记分享 | 基于 GitHub Actions 自动构建 VitePress 博客。
+- **[coze-coding-skills](https://github.com/CHENJIAMIAN/coze-coding-skills)**<br>
+  扣子编程 Skills 集合，沉淀可复用开发技能模块，支持 Python 和 TypeScript SDK。（Python）
+- **[wechat-get](https://github.com/CHENJIAMIAN/wechat-get)**<br>
+  微信文章获取工具，用于突破验证限制并获取完整原文内容。（JavaScript）
+- **[dingtalk-md-docx-postprocess](https://github.com/CHENJIAMIAN/dingtalk-md-docx-postprocess)**<br>
+  处理钉钉 Markdown 导出为 DOCX 后的格式问题。（PowerShell）
+<!-- recent-projects:end -->
 
 > 更多近期更新：
 - **[apifox-testcase-corpus](https://github.com/CHENJIAMIAN/apifox-testcase-corpus)**<br>
