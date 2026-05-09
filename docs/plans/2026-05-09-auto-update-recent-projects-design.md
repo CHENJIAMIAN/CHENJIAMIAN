@@ -27,6 +27,7 @@ GitHub Profile README 的 `Recently 最近` 区块目前需要手工维护。用
 - `LLM_HTTP_REFERER`：可选，默认 profile 仓库地址。
 - `LLM_X_TITLE`：可选，默认 `GitHub Profile Updater`。
 - `LLM_USER_AGENT`：可选，默认模拟 Cherry Studio 请求。
+- `LLM_COMPAT_HEADERS`：可选，设为 `cherry` 时发送 Cherry Studio 兼容请求头；官方 Cerebras 端点默认不需要。
 
 ## 数据流
 

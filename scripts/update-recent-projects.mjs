@@ -177,13 +177,16 @@ async function summarizeWithLlm(repo, topics, readmeExcerpt) {
     throw new Error('LLM_API_KEY is not configured');
   }
 
-  const response = await fetch(`${LLM_BASE_URL}/chat/completions`, {
-    method: 'POST',
-    headers: {
+  const headers = {
+    Accept: 'application/json',
+    Authorization: `Bearer ${apiKey}`,
+    'Content-Type': 'application/json',
+  };
+
+  if (process.env.LLM_COMPAT_HEADERS === 'cherry') {
+    Object.assign(headers, {
       Accept: '*/*',
       'Accept-Language': process.env.LLM_ACCEPT_LANGUAGE || 'zh-CN',
-      Authorization: `Bearer ${apiKey}`,
-      'Content-Type': 'application/json',
       'HTTP-Referer': process.env.LLM_HTTP_REFERER || `https://github.com/${OWNER}/${PROFILE_REPO}`,
       Priority: 'u=1, i',
       'Sec-CH-UA': '"Not(A:Brand";v="8", "Chromium";v="144"',
@@ -194,7 +197,12 @@ async function summarizeWithLlm(repo, topics, readmeExcerpt) {
       'Sec-Fetch-Site': 'cross-site',
       'User-Agent': process.env.LLM_USER_AGENT || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) CherryStudio/1.9.1 Chrome/144.0.7559.236 Electron/40.8.0 Safari/537.36',
       'X-Title': process.env.LLM_X_TITLE || 'GitHub Profile Updater',
-    },
+    });
+  }
+
+  const response = await fetch(`${LLM_BASE_URL}/chat/completions`, {
+    method: 'POST',
+    headers,
     body: JSON.stringify({
       model: LLM_MODEL,
       messages: [
