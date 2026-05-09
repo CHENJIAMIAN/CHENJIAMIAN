@@ -27,27 +27,41 @@
   Windows CLI，可按轮次恢复 Codex 会话并持续推进任务。（JavaScript）
 - **[codex-autopilot](https://github.com/CHENJIAMIAN/codex-autopilot)**<br>
   Windows 上用于自动恢复和推进 Codex CLI 会话的 PowerShell 包装工具。（PowerShell）
-- **[vscode-extension-multi-cursor-ai-generate](https://github.com/CHENJIAMIAN/vscode-extension-multi-cursor-ai-generate)**  
+- **[workday-dashboard](https://github.com/CHENJIAMIAN/workday-dashboard)**<br>
+  工作日数据看板，用于查看工作日、休息日和日期节奏。（HTML）
+- **[screen-timeline-recorder](https://github.com/CHENJIAMIAN/screen-timeline-recorder)**<br>
+  Windows 本地屏幕时间线录制工具，包含查看器、托盘控制、自启动和 ffmpeg 分段。（Rust）
+- **[industrial-glb-exporter](https://github.com/CHENJIAMIAN/industrial-glb-exporter)**<br>
+  面向工业模型的 Web GLB/GLTF 导出与优化工具，支持按场景选择导出精度。（JavaScript）
+- **[vscode-extension-multi-cursor-ai-generate](https://github.com/CHENJIAMIAN/vscode-extension-multi-cursor-ai-generate)**<br>
   对多光标/多选区并发调用 OpenAI 风格端点生成文本，支持限流、重试、流式插入、状态栏与日志。（TypeScript, MIT）
-- **[apifox-testcase-corpus](https://github.com/CHENJIAMIAN/apifox-testcase-corpus)**  
-  Apifox 测试场景语料，可喂给 AI 生成测试场景的 JSON 导入 Apifox。
-- **[Blog](https://github.com/CHENJIAMIAN/Blog)**  
-  Obsidian 笔记库 | 我的笔记分享 | 基于 GitHub Actions 自动构建 VitePress 博客。
-- **[crash-course-philosophy-notes](https://github.com/CHENJIAMIAN/crash-course-philosophy-notes)**  
-  《Crash Course Philosophy》中文总结，涵盖哲学核心概念与伦理/美学等。
-- **[html_to_ppt](https://github.com/CHENJIAMIAN/html_to_ppt)**  
+- **[threejs-dissolve-playground](https://github.com/CHENJIAMIAN/threejs-dissolve-playground)**<br>
+  Three.js 溶解 Shader 交互演示，支持阈值、边缘发光、颜色和几何体实时控制。（HTML）
+- **[coze-coding-skills](https://github.com/CHENJIAMIAN/coze-coding-skills)**<br>
+  扣子编程 Skills 集合，沉淀可复用开发技能模块，支持 Python 和 TypeScript SDK。（Python）
+- **[html_to_ppt](https://github.com/CHENJIAMIAN/html_to_ppt)**<br>
   HTML 转 PowerPoint（目前适配 ChatGLM 生成的网页 PPT）。
-- **[GroundMirrorReflect](https://github.com/CHENJIAMIAN/GroundMirrorReflect)**  
+- **[open-templates](https://github.com/CHENJIAMIAN/open-templates)**<br>
+  飞书 Aily 与妙搭同款灵感模板库，收录 Doc、Slides、Webpage 等高质量模板和 CLI。（JavaScript）
+- **[Blog](https://github.com/CHENJIAMIAN/Blog)**<br>
+  Obsidian 笔记库 | 我的笔记分享 | 基于 GitHub Actions 自动构建 VitePress 博客。
+- **[agent-cli-updater](https://github.com/CHENJIAMIAN/agent-cli-updater)**<br>
+  Windows 上用于更新 agent CLI 工具的轻量脚本。（PowerShell）
+
+> 更多近期更新：
+- **[apifox-testcase-corpus](https://github.com/CHENJIAMIAN/apifox-testcase-corpus)**<br>
+  Apifox 测试场景语料，可喂给 AI 生成测试场景的 JSON 导入 Apifox。
+- **[crash-course-philosophy-notes](https://github.com/CHENJIAMIAN/crash-course-philosophy-notes)**<br>
+  《Crash Course Philosophy》中文总结，涵盖哲学核心概念与伦理/美学等。
+- **[GroundMirrorReflect](https://github.com/CHENJIAMIAN/GroundMirrorReflect)**<br>
   基于 Reflector+（ReflectorNode/BlurNode/PhongNodeMaterial）实现镜面模糊地面。
 - **[github-release-note-exporter](https://github.com/CHENJIAMIAN/github-release-note-exporter)** · 预览：<https://chenjiamian.github.io/github-release-note-exporter/>
-- **[Trae-System-Prompt](https://github.com/CHENJIAMIAN/Trae-System-Prompt)**  
+- **[Trae-System-Prompt](https://github.com/CHENJIAMIAN/Trae-System-Prompt)**<br>
   获取 Trae IDE 系统提示语。
-- **[DissolveMaterial](https://github.com/CHENJIAMIAN/DissolveMaterial)**  
+- **[DissolveMaterial](https://github.com/CHENJIAMIAN/DissolveMaterial)**<br>
   使用 Three.js 的溶解材质示例。
-- **[Tech-Stack-Analyzer-chrome-extension](https://github.com/CHENJIAMIAN/Tech-Stack-Analyzer-chrome-extension)**  
+- **[Tech-Stack-Analyzer-chrome-extension](https://github.com/CHENJIAMIAN/Tech-Stack-Analyzer-chrome-extension)**<br>
   利用 AI 读取网站 HTML 并分析技术栈的 Chrome 插件。
-
-> 更多近期更新：  
 - **[BoxProjectedReflector](https://github.com/CHENJIAMIAN/BoxProjectedReflector)**  
   提供了一个独立于React和Vue的、简单有效的反射效果实现方案。 与`MeshReflectorMaterial`相比，该方案更轻量级。
 - **[MeshReflectorMaterial](https://github.com/CHENJIAMIAN/MeshReflectorMaterial)**  
@@ -60,6 +74,7 @@
   逆向 UIOTOS 前端零代码开发平台。  
 - **[InterpolatedGradientMaterial](https://github.com/CHENJIAMIAN/InterpolatedGradientMaterial)**  
   展示贴面温度热力图的 Three.js 演示。  
+
 ### 🖌️ My Work 作品展示
 
 - [城市更新二三维 WebGIS 展示（vite, vue2.7, ts）](https://chenjiamian.github.io/city-update-3d/)
