@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const OWNER = process.env.GITHUB_OWNER || 'CHENJIAMIAN';
 const PROFILE_REPO = process.env.PROFILE_REPO || OWNER;
-const RECENT_LIMIT = Number.parseInt(process.env.RECENT_PROJECT_LIMIT || '13', 10);
+const RECENT_MONTHS = Number.parseInt(process.env.RECENT_PROJECT_MONTHS || '3', 10);
 const README_PATH = process.env.README_PATH || 'README.md';
 const GITHUB_API = process.env.GITHUB_API_URL || 'https://api.github.com';
 const LLM_BASE_URL = (process.env.LLM_BASE_URL || 'https://api.cerebras.ai/v1').replace(/\/$/, '');
@@ -28,18 +28,40 @@ export function replaceGeneratedSection(readme, content) {
   return `${before}\n${content.trim()}\n${after}`;
 }
 
-export function selectRecentRepos(repos, owner = OWNER, limit = RECENT_LIMIT) {
+function monthsAgo(now, months) {
+  const year = now.getUTCFullYear();
+  const month = now.getUTCMonth() - months;
+  const day = now.getUTCDate();
+  const lastDayOfTargetMonth = new Date(Date.UTC(year, month + 1, 0)).getUTCDate();
+  return new Date(Date.UTC(
+    year,
+    month,
+    Math.min(day, lastDayOfTargetMonth),
+    now.getUTCHours(),
+    now.getUTCMinutes(),
+    now.getUTCSeconds(),
+    now.getUTCMilliseconds(),
+  ));
+}
+
+export function selectRecentRepos(repos, {
+  owner = OWNER,
+  recentMonths = RECENT_MONTHS,
+  now = new Date(),
+} = {}) {
+  const cutoff = monthsAgo(now, recentMonths).getTime();
+
   return repos
     .filter((repo) => !repo.private)
     .filter((repo) => !repo.fork)
     .filter((repo) => !repo.archived)
     .filter((repo) => repo.name.toLowerCase() !== owner.toLowerCase())
+    .filter((repo) => new Date(repo.pushed_at || repo.updated_at).getTime() >= cutoff)
     .sort((a, b) => {
       const bTime = new Date(b.pushed_at || b.updated_at).getTime();
       const aTime = new Date(a.pushed_at || a.updated_at).getTime();
       return bTime - aTime;
-    })
-    .slice(0, limit);
+    });
 }
 
 export function formatProjectList(projects) {
@@ -262,7 +284,10 @@ async function run() {
 
   const readme = await readFile(README_PATH, 'utf8');
   const repos = await fetchRepos(OWNER);
-  const selected = selectRecentRepos(repos, PROFILE_REPO, RECENT_LIMIT);
+  const selected = selectRecentRepos(repos, {
+    owner: PROFILE_REPO,
+    recentMonths: RECENT_MONTHS,
+  });
   const projects = [];
 
   for (const repo of selected) {

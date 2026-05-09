@@ -32,8 +32,8 @@ GitHub Profile README 的 `Recently 最近` 区块目前需要手工维护。用
 ## 数据流
 
 1. GitHub API 拉取 `CHENJIAMIAN` 的公开仓库。
-2. 排除 profile 仓库 `CHENJIAMIAN`、fork 仓库和 archived 仓库。
-3. 按 `pushed_at` 从新到旧排序，取前 13 个，避免仓库元数据变动影响“近期项目”口径。
+2. 排除 profile 仓库 `CHENJIAMIAN`、private 仓库、fork 仓库和 archived 仓库。
+3. 仅保留最近 3 个月内有 `pushed_at` 更新的仓库，并按 `pushed_at` 从新到旧排序，避免仓库元数据变动影响“近期项目”口径。
 4. 对每个仓库读取基础信息、topics、README 片段。
 5. LLM 输出一句中文描述；失败时退回仓库原 description。
 6. 生成 Markdown 列表并替换 README 自动区块。
@@ -42,6 +42,7 @@ GitHub Profile README 的 `Recently 最近` 区块目前需要手工维护。用
 ## 约束
 
 - 不把 API key 写入仓库。
+- 不读取、不展示 private 仓库；即使 API 响应中出现 private 仓库，也会在选择阶段过滤。
 - 普通运行必须配置 `LLM_API_KEY`；本地验证可显式使用 `--no-llm`。
 - 单个项目的 LLM 调用失败不阻塞整体更新，会退回仓库原 description。
 - 已切换到 Cerebras 官方端点；GitHub-hosted runner 已验证可正常调用。

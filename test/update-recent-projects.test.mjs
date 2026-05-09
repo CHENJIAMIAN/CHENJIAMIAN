@@ -35,22 +35,45 @@ test('replaceGeneratedSection only replaces the generated marker block', () => {
   );
 });
 
-test('selectRecentRepos filters profile repo, private repos and sorts by pushed time', () => {
+test('selectRecentRepos filters to public repos pushed within the recent month window', () => {
   const repos = [
-    { name: 'old', private: false, fork: false, archived: false, pushed_at: '2026-01-01T00:00:00Z' },
+    { name: 'too-old', private: false, fork: false, archived: false, pushed_at: '2026-01-31T00:00:00Z' },
     { name: 'metadata-only', private: false, fork: false, archived: false, pushed_at: '2026-01-02T00:00:00Z', updated_at: '2026-05-10T00:00:00Z' },
     { name: 'CHENJIAMIAN', private: false, fork: false, archived: false, pushed_at: '2026-05-09T00:00:00Z' },
     { name: 'private-one', private: true, fork: false, archived: false, pushed_at: '2026-05-08T00:00:00Z' },
     { name: 'fork-one', private: false, fork: true, archived: false, pushed_at: '2026-05-08T00:00:00Z' },
     { name: 'archived-one', private: false, fork: false, archived: true, pushed_at: '2026-05-08T00:00:00Z' },
     { name: 'new', private: false, fork: false, archived: false, pushed_at: '2026-05-07T00:00:00Z' },
+    { name: 'boundary', private: false, fork: false, archived: false, pushed_at: '2026-02-09T00:00:00Z' },
   ];
 
-  const selected = selectRecentRepos(repos, 'CHENJIAMIAN', 3);
+  const selected = selectRecentRepos(repos, {
+    owner: 'CHENJIAMIAN',
+    recentMonths: 3,
+    now: new Date('2026-05-09T00:00:00Z'),
+  });
 
   assert.deepEqual(
     selected.map((repo) => repo.name),
-    ['new', 'metadata-only', 'old'],
+    ['new', 'boundary'],
+  );
+});
+
+test('selectRecentRepos keeps calendar month boundary stable at month end', () => {
+  const repos = [
+    { name: 'feb-27', private: false, fork: false, archived: false, pushed_at: '2026-02-27T23:59:59Z' },
+    { name: 'feb-28', private: false, fork: false, archived: false, pushed_at: '2026-02-28T00:00:00Z' },
+  ];
+
+  const selected = selectRecentRepos(repos, {
+    owner: 'CHENJIAMIAN',
+    recentMonths: 3,
+    now: new Date('2026-05-31T00:00:00Z'),
+  });
+
+  assert.deepEqual(
+    selected.map((repo) => repo.name),
+    ['feb-28'],
   );
 });
 

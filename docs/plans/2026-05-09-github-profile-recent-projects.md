@@ -2,9 +2,9 @@
 
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
 
-**Goal:** 更新 GitHub Profile README 的近期项目区块，在已新增 3 个项目基础上再加 10 个近期公开项目。
+**Goal:** 更新 GitHub Profile README 的近期项目区块，手工追加一批近期公开项目。
 
-**Architecture:** 本次只改 Markdown 内容，不引入脚本或自动化流程。数据来源为 `gh repo list CHENJIAMIAN` 返回的公开仓库更新时间。
+**Architecture:** 本文档记录早期手工更新方案；当前口径已由自动化方案接管，按最近 3 个月有 `pushed_at` 更新的公开、非 private、非 fork、非 archived 仓库生成。
 
 **Tech Stack:** GitHub Profile README、Markdown、GitHub CLI。
 
@@ -17,7 +17,7 @@
 
 **Step 1: 写入设计记录**
 
-记录用户确认的方案：新增最近项目，最近的排前面，主列表展示最近 13 个公开仓库，保留旧项目列表。
+记录用户确认的手工方案：新增最近项目，最近的排前面，保留旧项目列表。
 
 **Step 2: 验证文档**
 
@@ -30,7 +30,7 @@
 **Files:**
 - Modify: `README.md`
 
-**Step 1: 插入最新 13 个公开项目**
+**Step 1: 插入公开近期项目**
 
 在 `### 🎇 Recently 最近` 后插入：
 
@@ -56,7 +56,7 @@
 
 运行：`git diff -- README.md`
 
-预期：`Recently 最近` 主列表为最近 13 个公开项目，旧项目保留在 `更多近期更新` 下。
+预期：`Recently 最近` 主列表为公开近期项目，旧项目保留在 `更多近期更新` 下。
 
 ### Task 3: 提交和推送
 

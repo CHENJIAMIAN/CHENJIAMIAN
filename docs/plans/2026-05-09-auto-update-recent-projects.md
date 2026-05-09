@@ -4,7 +4,7 @@
 
 **Goal:** 为 GitHub Profile README 增加自动更新近期项目能力，并用 OpenAI 兼容 LLM 生成项目中文描述。
 
-**Architecture:** 使用一个无依赖 Node.js 脚本处理 GitHub API、LLM 调用和 README marker 替换。脚本按 `pushed_at` 选择最近公开非 fork、非 archived 仓库。GitHub Actions 定时执行脚本，也支持手动执行。
+**Architecture:** 使用一个无依赖 Node.js 脚本处理 GitHub API、LLM 调用和 README marker 替换。脚本按 `pushed_at` 选择最近 3 个月更新的公开、非 private、非 fork、非 archived 仓库。GitHub Actions 定时执行脚本，也支持手动执行。
 
 **Tech Stack:** Node.js 20+、node:test、GitHub Actions、OpenAI-compatible Chat Completions API。
 
@@ -17,7 +17,7 @@
 
 **Step 1: 写失败测试**
 
-覆盖 README marker 替换、项目 Markdown 生成、按 `pushed_at` 排序、过滤 profile/fork/archived/private 仓库等纯函数。
+覆盖 README marker 替换、项目 Markdown 生成、按 `pushed_at` 的 3 个月窗口筛选和排序、过滤 profile/fork/archived/private 仓库等纯函数。
 
 **Step 2: 运行测试确认失败**
 
@@ -35,7 +35,7 @@ Expected: FAIL，因为 `scripts/update-recent-projects.mjs` 不存在。
 实现：
 
 - `replaceGeneratedSection(readme, content)`
-- `selectRecentRepos(repos, owner, limit)`
+- `selectRecentRepos(repos, { owner, recentMonths, now })`
 - `formatProjectList(projects)`
 - `fallbackSummary(repo)`
 
@@ -88,6 +88,7 @@ Expected: 输出会更新的 README 内容摘要，不写文件。
 使用：
 
 - `GITHUB_TOKEN`
+- `RECENT_PROJECT_MONTHS`
 - `LLM_API_KEY`
 - `LLM_BASE_URL`
 - `LLM_MODEL`

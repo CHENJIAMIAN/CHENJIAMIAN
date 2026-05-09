@@ -33,7 +33,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_OWNER: CHENJIAMIAN
           PROFILE_REPO: CHENJIAMIAN
-          RECENT_PROJECT_LIMIT: '13'
+          RECENT_PROJECT_MONTHS: '3'
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
