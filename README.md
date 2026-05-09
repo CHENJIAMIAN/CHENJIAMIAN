@@ -23,31 +23,47 @@
 
 <!-- recent-projects:start -->
 - **[codex-ai-replies-cli](https://github.com/CHENJIAMIAN/codex-ai-replies-cli)**<br>
-  命令行工具，解析 Codex 会话记录，提取助手回复、工具调用和 MCP 事件，便于审查与调试。（JavaScript）
+  命令行工具，解析 Codex 会话记录，提取助手回复、工具调用与 MCP 事件，便于审查和调试交互流程。（JavaScript）
 - **[codex-autopilot-npm](https://github.com/CHENJIAMIAN/codex-autopilot-npm)**<br>
-  Windows 命令行工具，用于恢复并逐步推进 Codex 会话，适合自动化处理长时间任务。（JavaScript）
+  Windows 命令行工具，用于恢复并逐步推进 Codex 会话，适合自动化或断点续跑场景。（JavaScript）
 - **[codex-autopilot](https://github.com/CHENJIAMIAN/codex-autopilot)**<br>
   Windows 下用于接力 Codex CLI 会话的自动化脚本，支持多轮持续执行与状态恢复（PowerShell）
 - **[workday-dashboard](https://github.com/CHENJIAMIAN/workday-dashboard)**<br>
-  用于可视化工作日数据的看板工具，帮助跟踪和分析日常任务与时间分配情况（HTML）
+  用于可视化工作日数据的看板工具，帮助跟踪和分析日常任务进度与时间分配情况（HTML）
 - **[screen-timeline-recorder](https://github.com/CHENJIAMIAN/screen-timeline-recorder)**<br>
   一款面向Windows的持续录屏工具，记录桌面活动并按时间索引，支持本地回放与托盘控制。（Rust）
 - **[vscode-extension-multi-cursor-ai-generate](https://github.com/CHENJIAMIAN/vscode-extension-multi-cursor-ai-generate)**<br>
-  为 VS Code 多光标并发调用 AI 接口生成文本，支持限流与重试。（TypeScript）
+  为 VS Code 多光标并发调用 AI 接口生成文本，适用于批量编辑场景。（TypeScript）
 - **[threejs-dissolve-playground](https://github.com/CHENJIAMIAN/threejs-dissolve-playground)**<br>
-  基于Three.js的可交互消融效果演示，支持实时调节参数与多几何体预览。（HTML）
+  基于Three.js的可交互消融效果演示，支持实时调节参数与多模型预览。（HTML）
 - **[open-templates](https://github.com/CHENJIAMIAN/open-templates)**<br>
-  开源模板库，收录文档、幻灯片等高质量模板，附示例与命令行工具，便于快速初始化项目。（JavaScript）
+  开源模板库，收录文档、幻灯片等高质量模板，提供示例与命令行工具，便于快速初始化项目。（JavaScript）
 - **[agent-cli-updater](https://github.com/CHENJIAMIAN/agent-cli-updater)**<br>
-  用于在 Windows 上自动更新 Agent CLI 工具的轻量级脚本，适合需要定期同步命令行工具的运维场景。（PowerShell）
+  用于在 Windows 上自动更新 Agent CLI 工具的轻量级 PowerShell 脚本，适合需要定期同步命令行工具的运维场景。（PowerShell）
 - **[Blog](https://github.com/CHENJIAMIAN/Blog)**<br>
-  一个基于 Obsidian 的个人笔记博客，通过自动化流程构建静态网站，适合追求高效写作与知识管理的技术用户。
+  一个基于 Obsidian 的个人笔记博客，通过自动化流程构建并部署静态网站，适合知识管理与分享。
 - **[coze-coding-skills](https://github.com/CHENJIAMIAN/coze-coding-skills)**<br>
-  扣子编程 Skills 是一组可复用的开发模块，支持 Python 和 TypeScript，用于快速构建应用功能，涵盖数据库、媒体处理、前端设计与第三方服务集成等场景。（Python）
+  扣子编程 Skills 是一组可复用的开发模块，提供大模型、数据库、媒体处理等能力，用于快速构建应用功能。（Python）
 - **[wechat-get](https://github.com/CHENJIAMIAN/wechat-get)**<br>
-  微信文章获取工具，突破验证限制，轻松提取公众号原文内容。（JavaScript）
+  微信文章获取工具，突破验证限制，轻松提取公众号完整内容（JavaScript）
 - **[dingtalk-md-docx-postprocess](https://github.com/CHENJIAMIAN/dingtalk-md-docx-postprocess)**<br>
-  处理钉钉导出的DOCX文档格式问题，修正代码样式与表格排版（PowerShell）
+  处理钉钉导出的DOCX文档格式问题，修正代码样式与表格排版。（PowerShell）
+- **[chrome-history-daily-summary](https://github.com/CHENJIAMIAN/chrome-history-daily-summary)**<br>
+  将浏览器历史按天聚类并生成每日活动总结，适合需回顾或分析上网行为的场景。（HTML）
+- **[smart-factory-spacetimedb](https://github.com/CHENJIAMIAN/smart-factory-spacetimedb)**<br>
+  基于SpacetimeDB构建的智能工厂数字孪生原型，实现传感器数据实时同步与产线状态可视化，适用于工业物联网场景下的快速验证与演示。（Rust）
+- **[gis-mini-lab](https://github.com/CHENJIAMIAN/gis-mini-lab)**<br>
+  gis-mini-lab 是一个轻量级地理可视化实验工具，用于快速验证地图交互功能原型。（HTML）
+- **[3d-gis-mini-mvp](https://github.com/CHENJIAMIAN/3d-gis-mini-mvp)**<br>
+  基于Cesium的3D地理信息原型，用于展示区域点位与路径分析（HTML）
+- **[digital-twin-spacetimedb](https://github.com/CHENJIAMIAN/digital-twin-spacetimedb)**<br>
+  数字孪生MVP，模拟设备数据并实时计算健康状态，适合工业监控场景的快速验证与原型开发。（HTML）
+- **[digital-twin-spacetimedb-demo](https://github.com/CHENJIAMIAN/digital-twin-spacetimedb-demo)**<br>
+  数字孪生演示项目，模拟设备实时数据上报与健康状态监控，适用于工业物联网场景的快速原型验证。（HTML）
+- **[openclaw-showcase-20260226](https://github.com/CHENJIAMIAN/openclaw-showcase-20260226)**<br>
+  OpenClaw 展示项目，用于呈现 OpenClaw 框架的核心功能与应用场景。（HTML）
+- **[tambo-how-it-works-site](https://github.com/CHENJIAMIAN/tambo-how-it-works-site)**<br>
+  展示 Tambo 工作原理的网站，用于说明其运行机制与技术实现。（TypeScript）
 <!-- recent-projects:end -->
 
 > 更多近期更新：
