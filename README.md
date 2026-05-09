@@ -23,31 +23,31 @@
 
 <!-- recent-projects:start -->
 - **[codex-ai-replies-cli](https://github.com/CHENJIAMIAN/codex-ai-replies-cli)**<br>
-  CLI to extract assistant, tool, and MCP events from Codex session rollouts.（JavaScript）
+  命令行工具，解析 Codex 会话记录，提取助手回复、工具调用和 MCP 事件，便于审查与调试。（JavaScript）
 - **[codex-autopilot-npm](https://github.com/CHENJIAMIAN/codex-autopilot-npm)**<br>
-  Windows CLI to resume Codex sessions and keep them moving turn by turn.（JavaScript）
+  Windows 命令行工具，用于恢复并逐步推进 Codex 会话，适合自动化或断点续跑场景。（JavaScript）
 - **[codex-autopilot](https://github.com/CHENJIAMIAN/codex-autopilot)**<br>
-  Windows autopilot wrapper for resuming Codex CLI sessions turn by turn（PowerShell）
+  Windows 下用于接力 Codex CLI 会话的自动化脚本，支持多轮持续执行与状态恢复（PowerShell）
 - **[workday-dashboard](https://github.com/CHENJIAMIAN/workday-dashboard)**<br>
-  工作日数据看板（HTML）
+  用于可视化工作日数据的看板工具，帮助跟踪和分析日常任务进度与时间分配情况（HTML）
 - **[screen-timeline-recorder](https://github.com/CHENJIAMIAN/screen-timeline-recorder)**<br>
-  Windows-first screen recorder with local viewer, tray controls, autostart, and ffmpeg-based video segments.（Rust）
+  一款面向Windows的持续录屏工具，记录桌面活动并按时间索引，支持本地回放与托盘控制。（Rust）
 - **[vscode-extension-multi-cursor-ai-generate](https://github.com/CHENJIAMIAN/vscode-extension-multi-cursor-ai-generate)**<br>
-  Concurrently call OpenAI-style endpoints to generate text for multiple cursors/multiple selections, supporting rate limiting, retries, streaming insertion, status bar, and logging. | 对多光标/多选区并发调用 OpenAI 风格端点生成文本，支持限流、重试、流式插入、状态栏与日志。（TypeScript）
+  为 VS Code 多光标并发调用 AI 接口生成文本，适用于批量编辑场景。（TypeScript）
 - **[threejs-dissolve-playground](https://github.com/CHENJIAMIAN/threejs-dissolve-playground)**<br>
-  Interactive Three.js dissolve shader demo with real-time controls for threshold, edge glow, color, and geometry.（HTML）
+  基于Three.js的可交互消融效果演示，支持实时调节参数与多模型预览。（HTML）
 - **[open-templates](https://github.com/CHENJIAMIAN/open-templates)**<br>
-  飞书 Aily 与妙搭同款灵感模板库，收录 Doc、Slides、Webpage 等高质量模板，附带示例、预览资源与 CLI。（JavaScript）
+  开源模板库，收录文档、幻灯片等高质量模板，附示例与命令行工具，便于快速初始化项目。（JavaScript）
 - **[agent-cli-updater](https://github.com/CHENJIAMIAN/agent-cli-updater)**<br>
-  A simple tool to update agent CLI tools on Windows（PowerShell）
+  用于在 Windows 上自动更新 Agent CLI 工具的轻量级脚本，适合需要定期同步命令行工具的运维场景。（PowerShell）
 - **[Blog](https://github.com/CHENJIAMIAN/Blog)**<br>
-  Obsidian笔记库 | 我的笔记分bei享fen | 根据GitHub工作流自动构建vitepress博客
+  一个基于 Obsidian 的个人笔记博客，通过自动化流程构建静态网站，适合知识管理与分享。
 - **[coze-coding-skills](https://github.com/CHENJIAMIAN/coze-coding-skills)**<br>
-  扣子编程（Coze Coding）Skills 集合 - 一组可复用的开发技能模块，支持 Python 和 TypeScript 双语言 SDK（Python）
+  扣子编程 Skills 是一组可复用的开发模块，支持 Python 和 TypeScript，用于快速构建应用功能，涵盖数据库、媒体处理、前端设计与第三方服务集成等场景。（Python）
 - **[wechat-get](https://github.com/CHENJIAMIAN/wechat-get)**<br>
-  🚀 微信文章获取工具 - 突破验证限制，获取完整原文（JavaScript）
+  微信文章获取工具，突破验证限制，轻松提取公众号原文内容。（JavaScript）
 - **[dingtalk-md-docx-postprocess](https://github.com/CHENJIAMIAN/dingtalk-md-docx-postprocess)**<br>
-  用于处理钉钉 Markdown 导出为 DOCX 后的格式问题（PowerShell）
+  处理钉钉导出的DOCX文档格式问题，修正代码样式与表格排版（PowerShell）
 <!-- recent-projects:end -->
 
 > 更多近期更新：
