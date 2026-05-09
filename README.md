@@ -25,23 +25,23 @@
 - **[codex-ai-replies-cli](https://github.com/CHENJIAMIAN/codex-ai-replies-cli)**<br>
   命令行工具，解析 Codex 会话记录，提取助手回复、工具调用和 MCP 事件，便于审查与调试。（JavaScript）
 - **[codex-autopilot-npm](https://github.com/CHENJIAMIAN/codex-autopilot-npm)**<br>
-  Windows 命令行工具，用于恢复并逐步推进 Codex 会话，适合自动化或断点续跑场景。（JavaScript）
+  Windows 命令行工具，用于恢复并逐步推进 Codex 会话，适合自动化处理长时间任务。（JavaScript）
 - **[codex-autopilot](https://github.com/CHENJIAMIAN/codex-autopilot)**<br>
   Windows 下用于接力 Codex CLI 会话的自动化脚本，支持多轮持续执行与状态恢复（PowerShell）
 - **[workday-dashboard](https://github.com/CHENJIAMIAN/workday-dashboard)**<br>
-  用于可视化工作日数据的看板工具，帮助跟踪和分析日常任务进度与时间分配情况（HTML）
+  用于可视化工作日数据的看板工具，帮助跟踪和分析日常任务与时间分配情况（HTML）
 - **[screen-timeline-recorder](https://github.com/CHENJIAMIAN/screen-timeline-recorder)**<br>
   一款面向Windows的持续录屏工具，记录桌面活动并按时间索引，支持本地回放与托盘控制。（Rust）
 - **[vscode-extension-multi-cursor-ai-generate](https://github.com/CHENJIAMIAN/vscode-extension-multi-cursor-ai-generate)**<br>
-  为 VS Code 多光标并发调用 AI 接口生成文本，适用于批量编辑场景。（TypeScript）
+  为 VS Code 多光标并发调用 AI 接口生成文本，支持限流与重试。（TypeScript）
 - **[threejs-dissolve-playground](https://github.com/CHENJIAMIAN/threejs-dissolve-playground)**<br>
-  基于Three.js的可交互消融效果演示，支持实时调节参数与多模型预览。（HTML）
+  基于Three.js的可交互消融效果演示，支持实时调节参数与多几何体预览。（HTML）
 - **[open-templates](https://github.com/CHENJIAMIAN/open-templates)**<br>
   开源模板库，收录文档、幻灯片等高质量模板，附示例与命令行工具，便于快速初始化项目。（JavaScript）
 - **[agent-cli-updater](https://github.com/CHENJIAMIAN/agent-cli-updater)**<br>
   用于在 Windows 上自动更新 Agent CLI 工具的轻量级脚本，适合需要定期同步命令行工具的运维场景。（PowerShell）
 - **[Blog](https://github.com/CHENJIAMIAN/Blog)**<br>
-  一个基于 Obsidian 的个人笔记博客，通过自动化流程构建静态网站，适合知识管理与分享。
+  一个基于 Obsidian 的个人笔记博客，通过自动化流程构建静态网站，适合追求高效写作与知识管理的技术用户。
 - **[coze-coding-skills](https://github.com/CHENJIAMIAN/coze-coding-skills)**<br>
   扣子编程 Skills 是一组可复用的开发模块，支持 Python 和 TypeScript，用于快速构建应用功能，涵盖数据库、媒体处理、前端设计与第三方服务集成等场景。（Python）
 - **[wechat-get](https://github.com/CHENJIAMIAN/wechat-get)**<br>
