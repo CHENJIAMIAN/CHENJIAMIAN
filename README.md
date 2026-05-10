@@ -25,25 +25,25 @@
 - **[codex-ai-replies-cli](https://github.com/CHENJIAMIAN/codex-ai-replies-cli)**<br>
   命令行工具，解析 Codex 会话记录，提取助手回复、工具调用和 MCP 事件，便于审查与调试。（JavaScript）
 - **[codex-autopilot-npm](https://github.com/CHENJIAMIAN/codex-autopilot-npm)**<br>
-  Windows 命令行工具，用于恢复并逐步推进 Codex 会话，适合自动化或断点续跑场景。（JavaScript）
+  Windows 命令行工具，用于恢复并逐步推进 Codex 会话，适合自动化处理长时间任务。（JavaScript）
 - **[codex-autopilot](https://github.com/CHENJIAMIAN/codex-autopilot)**<br>
   Windows 下用于接力 Codex CLI 会话的自动化脚本，支持多轮持续执行与状态恢复（PowerShell）
 - **[workday-dashboard](https://github.com/CHENJIAMIAN/workday-dashboard)**<br>
   用于可视化工作日数据的看板工具，帮助跟踪和分析日常任务进度与时间分配情况（HTML）
 - **[screen-timeline-recorder](https://github.com/CHENJIAMIAN/screen-timeline-recorder)**<br>
-  一款专为Windows设计的低开销屏幕录制工具，支持自动分段录制、时间线回放与本地查看，适合长期桌面活动记录。（Rust）
+  一款专为 Windows 设计的低开销录屏工具，支持长时间分段录制、时间线索引与本地回放，适合桌面活动记录与回溯。（Rust）
 - **[vscode-extension-multi-cursor-ai-generate](https://github.com/CHENJIAMIAN/vscode-extension-multi-cursor-ai-generate)**<br>
-  为 VS Code 多光标并发调用 AI 文本生成接口，支持限流与重试，适用于批量代码补全或文本编辑场景。（TypeScript）
+  为 VS Code 多光标并发调用 AI 接口生成文本，适用于批量编辑场景。（TypeScript）
 - **[threejs-dissolve-playground](https://github.com/CHENJIAMIAN/threejs-dissolve-playground)**<br>
   基于Three.js的可交互消融效果演示，支持实时调节参数与多模型预览。（HTML）
 - **[open-templates](https://github.com/CHENJIAMIAN/open-templates)**<br>
-  开源模板库，收录文档、幻灯片等高质量模板，附示例与命令行工具，方便快速初始化项目。（JavaScript）
+  提供文档、幻灯片等高质量模板库，附示例与命令行工具，便于快速创建内容。（JavaScript）
 - **[agent-cli-updater](https://github.com/CHENJIAMIAN/agent-cli-updater)**<br>
-  用于在 Windows 上自动更新 Agent CLI 工具的轻量级 PowerShell 脚本，支持定时任务与手动执行。（PowerShell）
+  用于在 Windows 上自动更新 Agent CLI 工具的轻量级脚本，支持定时任务与手动执行。（PowerShell）
 - **[Blog](https://github.com/CHENJIAMIAN/Blog)**<br>
-  一个基于 Obsidian 的个人笔记博客，通过自动化流程构建静态网站，适合追求高效写作与知识管理的技术用户。
+  一个基于 Obsidian 的个人笔记博客，通过自动化流程构建并部署静态网站，适合追求高效写作与知识管理的技术用户。
 - **[coze-coding-skills](https://github.com/CHENJIAMIAN/coze-coding-skills)**<br>
-  扣子编程 Skills 是一组可复用的开发模块，支持 Python 和 TypeScript，用于快速构建应用功能。（Python）
+  扣子编程 Skills 是一组可复用的开发模块，支持 Python 与 TypeScript，用于快速构建应用功能，涵盖数据库、媒体处理、前端设计等场景。（Python）
 - **[wechat-get](https://github.com/CHENJIAMIAN/wechat-get)**<br>
   微信文章获取工具，突破验证限制，轻松提取公众号原文内容。（JavaScript）
 - **[dingtalk-md-docx-postprocess](https://github.com/CHENJIAMIAN/dingtalk-md-docx-postprocess)**<br>
@@ -61,7 +61,7 @@
 - **[digital-twin-spacetimedb-demo](https://github.com/CHENJIAMIAN/digital-twin-spacetimedb-demo)**<br>
   数字孪生演示项目，模拟设备实时数据上报与健康状态监控，适用于工业物联网场景的快速原型验证。（HTML）
 - **[openclaw-showcase-20260226](https://github.com/CHENJIAMIAN/openclaw-showcase-20260226)**<br>
-  展示 OpenClaw 项目功能与应用场景的示例集合（HTML）
+  OpenClaw 展示项目，用于呈现 OpenClaw 框架的核心功能与应用场景。（HTML）
 - **[tambo-how-it-works-site](https://github.com/CHENJIAMIAN/tambo-how-it-works-site)**<br>
   展示 Tambo 工作原理的网站，用于说明其运行机制与技术实现。（TypeScript）
 <!-- recent-projects:end -->
