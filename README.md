@@ -27,33 +27,33 @@
 - **[codex-autopilot-npm](https://github.com/CHENJIAMIAN/codex-autopilot-npm)**<br>
   Windows 命令行工具，用于恢复并逐步推进 Codex 会话，适合自动化或断点续跑场景。（JavaScript）
 - **[codex-autopilot](https://github.com/CHENJIAMIAN/codex-autopilot)**<br>
-  用于在Windows上自动续跑Codex CLI会话，支持多轮执行与状态持久化（PowerShell）
+  Windows 下用于接力 Codex CLI 会话的自动化脚本，支持多轮持续执行与状态恢复。（PowerShell）
 - **[workday-dashboard](https://github.com/CHENJIAMIAN/workday-dashboard)**<br>
   用于可视化工作日数据的看板工具，帮助跟踪和分析日常任务进度与时间分配情况（HTML）
 - **[screen-timeline-recorder](https://github.com/CHENJIAMIAN/screen-timeline-recorder)**<br>
-  一款面向Windows的持续录屏工具，记录桌面活动并按时间索引，支持本地回放与系统托盘控制。（Rust）
+  一款专为Windows设计的低开销屏幕录制工具，支持自动分段录制、系统托盘控制与本地时间线回放，适用于长时间桌面活动记录与回溯。（Rust）
 - **[vscode-extension-multi-cursor-ai-generate](https://github.com/CHENJIAMIAN/vscode-extension-multi-cursor-ai-generate)**<br>
-  为 VS Code 多光标并发调用 AI 接口生成文本，适用于批量编辑场景。（TypeScript）
+  为 VS Code 多光标并发调用 AI 接口生成文本，支持限流与重试。（TypeScript）
 - **[threejs-dissolve-playground](https://github.com/CHENJIAMIAN/threejs-dissolve-playground)**<br>
   基于Three.js的可交互消融效果演示，支持实时调节参数与多模型预览。（HTML）
 - **[open-templates](https://github.com/CHENJIAMIAN/open-templates)**<br>
   开源模板库，收录文档、幻灯片等高质量模板，附示例与命令行工具，便于快速初始化项目。（JavaScript）
 - **[agent-cli-updater](https://github.com/CHENJIAMIAN/agent-cli-updater)**<br>
-  用于在 Windows 上自动更新 Agent CLI 工具的轻量级脚本，适合需要定期同步命令行工具的运维场景。（PowerShell）
+  用于在 Windows 上自动更新 Agent CLI 工具的轻量级 PowerShell 脚本，适合需要定期同步命令行工具的运维场景。（PowerShell）
 - **[Blog](https://github.com/CHENJIAMIAN/Blog)**<br>
-  基于 Obsidian 的笔记库，通过自动化流程构建并部署个人博客，适合追求高效知识管理与分享的技术写作者。
+  基于 Obsidian 的笔记库，通过自动化流程构建个人博客，方便知识整理与分享。
 - **[coze-coding-skills](https://github.com/CHENJIAMIAN/coze-coding-skills)**<br>
   扣子编程 Skills 是一组可复用的开发模块，支持 Python 和 TypeScript，用于快速构建应用功能。（Python）
 - **[wechat-get](https://github.com/CHENJIAMIAN/wechat-get)**<br>
-  微信文章获取工具，突破验证限制，轻松提取公众号全文内容，适合内容研究与信息收集场景。（JavaScript）
+  微信文章获取工具，突破验证限制，轻松提取公众号原文内容。（JavaScript）
 - **[dingtalk-md-docx-postprocess](https://github.com/CHENJIAMIAN/dingtalk-md-docx-postprocess)**<br>
   处理钉钉导出的DOCX文档格式问题，修正代码样式与表格排版（PowerShell）
 - **[chrome-history-daily-summary](https://github.com/CHENJIAMIAN/chrome-history-daily-summary)**<br>
   将浏览器历史按天聚类并生成每日活动总结，适合需回顾或分析上网行为的场景。（HTML）
 - **[smart-factory-spacetimedb](https://github.com/CHENJIAMIAN/smart-factory-spacetimedb)**<br>
-  基于SpacetimeDB构建的智能工厂数字孪生原型，实现传感器数据实时同步与产线状态可视化。（Rust）
+  基于SpacetimeDB构建的智能工厂数字孪生原型，实现传感器数据实时同步与产线状态可视化，适用于工业物联网场景下的快速验证与演示。（Rust）
 - **[gis-mini-lab](https://github.com/CHENJIAMIAN/gis-mini-lab)**<br>
-  地理数据可视化实验项目，用于快速验证迷你应用原型。（HTML）
+  gis-mini-lab 是一个轻量级地理可视化实验工具，用于快速验证地图交互原型。（HTML）
 - **[3d-gis-mini-mvp](https://github.com/CHENJIAMIAN/3d-gis-mini-mvp)**<br>
   基于Cesium的3D地理信息原型，用于展示区域点位与路径分析（HTML）
 - **[digital-twin-spacetimedb](https://github.com/CHENJIAMIAN/digital-twin-spacetimedb)**<br>
