@@ -22,46 +22,32 @@
 ### 🎇 Recently 最近
 
 <!-- recent-projects:start -->
-- **[codex-ai-replies-cli](https://github.com/CHENJIAMIAN/codex-ai-replies-cli)**<br>
-  命令行工具，解析 Codex 会话记录，提取助手回复、工具调用和 MCP 事件，便于审查与调试。（JavaScript）
-- **[codex-autopilot-npm](https://github.com/CHENJIAMIAN/codex-autopilot-npm)**<br>
-  Windows 命令行工具，用于恢复并逐步推进 Codex 会话，适合自动化或断点续跑场景。（JavaScript）
-- **[codex-autopilot](https://github.com/CHENJIAMIAN/codex-autopilot)**<br>
-  Windows 下用于接力 Codex CLI 会话的自动化脚本，支持多轮持续执行与状态恢复。（PowerShell）
-- **[workday-dashboard](https://github.com/CHENJIAMIAN/workday-dashboard)**<br>
-  用于可视化工作日数据的看板工具，帮助跟踪和分析日常任务进度与时间分配情况（HTML）
-- **[screen-timeline-recorder](https://github.com/CHENJIAMIAN/screen-timeline-recorder)**<br>
-  一款专为Windows设计的低开销屏幕录制工具，支持自动分段录制、系统托盘控制与本地时间线回放，适用于长时间桌面活动记录与回溯。（Rust）
-- **[vscode-extension-multi-cursor-ai-generate](https://github.com/CHENJIAMIAN/vscode-extension-multi-cursor-ai-generate)**<br>
-  为 VS Code 多光标并发调用 AI 接口生成文本，支持限流与重试。（TypeScript）
-- **[threejs-dissolve-playground](https://github.com/CHENJIAMIAN/threejs-dissolve-playground)**<br>
-  基于Three.js的可交互消融效果演示，支持实时调节参数与多模型预览。（HTML）
-- **[open-templates](https://github.com/CHENJIAMIAN/open-templates)**<br>
-  开源模板库，收录文档、幻灯片等高质量模板，附示例与命令行工具，便于快速初始化项目。（JavaScript）
-- **[agent-cli-updater](https://github.com/CHENJIAMIAN/agent-cli-updater)**<br>
-  用于在 Windows 上自动更新 Agent CLI 工具的轻量级 PowerShell 脚本，适合需要定期同步命令行工具的运维场景。（PowerShell）
 - **[Blog](https://github.com/CHENJIAMIAN/Blog)**<br>
-  基于 Obsidian 的笔记库，通过自动化流程构建个人博客，方便知识整理与分享。
-- **[coze-coding-skills](https://github.com/CHENJIAMIAN/coze-coding-skills)**<br>
-  扣子编程 Skills 是一组可复用的开发模块，支持 Python 和 TypeScript，用于快速构建应用功能。（Python）
-- **[wechat-get](https://github.com/CHENJIAMIAN/wechat-get)**<br>
-  微信文章获取工具，突破验证限制，轻松提取公众号原文内容。（JavaScript）
-- **[dingtalk-md-docx-postprocess](https://github.com/CHENJIAMIAN/dingtalk-md-docx-postprocess)**<br>
-  处理钉钉导出的DOCX文档格式问题，修正代码样式与表格排版（PowerShell）
-- **[chrome-history-daily-summary](https://github.com/CHENJIAMIAN/chrome-history-daily-summary)**<br>
-  将浏览器历史按天聚类并生成每日活动总结，适合需回顾或分析上网行为的场景。（HTML）
-- **[smart-factory-spacetimedb](https://github.com/CHENJIAMIAN/smart-factory-spacetimedb)**<br>
-  基于SpacetimeDB构建的智能工厂数字孪生原型，实现传感器数据实时同步与产线状态可视化，适用于工业物联网场景下的快速验证与演示。（Rust）
-- **[gis-mini-lab](https://github.com/CHENJIAMIAN/gis-mini-lab)**<br>
-  gis-mini-lab 是一个轻量级地理可视化实验工具，用于快速验证地图交互原型。（HTML）
-- **[3d-gis-mini-mvp](https://github.com/CHENJIAMIAN/3d-gis-mini-mvp)**<br>
-  基于Cesium的3D地理信息原型，用于展示区域点位与路径分析（HTML）
-- **[digital-twin-spacetimedb](https://github.com/CHENJIAMIAN/digital-twin-spacetimedb)**<br>
-  数字孪生MVP，模拟设备数据并实时计算健康状态，适合工业监控场景的快速验证与原型开发。（HTML）
-- **[digital-twin-spacetimedb-demo](https://github.com/CHENJIAMIAN/digital-twin-spacetimedb-demo)**<br>
-  数字孪生演示项目，模拟设备数据上报与实时状态监控，适用于工业物联网场景的快速原型验证。（HTML）
-- **[openclaw-showcase-20260226](https://github.com/CHENJIAMIAN/openclaw-showcase-20260226)**<br>
-  展示 OpenClaw 项目功能与应用场景的示例集合（HTML）
+  Obsidian 笔记库，借助 VitePress 自动生成博客，适合将本地笔记同步为静态站点。
+- **[codex-ai-replies-cli](https://github.com/CHENJIAMIAN/codex-ai-replies-cli)**<br>
+  CLI工具读取本地Codex会话JSONL，生成助理、工具和MCP事件日志，便于审查调试。（JavaScript）
+- **[vscode-explorer-terminal-command](https://github.com/CHENJIAMIAN/vscode-explorer-terminal-command)**<br>
+  在 VS Code 资源管理器右键单文件或文件夹，即可在外部终端执行自定义命令，便于快速在对应目录运行脚本。（TypeScript）
+- **[prompt-file-generator](https://github.com/CHENJIAMIAN/prompt-file-generator)**<br>
+  VS Code 扩展，选中文件后用提示词调用 OpenAI 兼容模型批量生成新文件，适用于代码翻译或注释生成。（TypeScript）
+- **[SecurityWarning](https://github.com/CHENJIAMIAN/SecurityWarning)**<br>
+  基于OpenLayers的WebGIS系统，提供位置安全预警，配合Android客户端实现实时风险监测，并通过HttpHandler与本地数据库交互，支持登录验证。（JavaScript）
+- **[workday-dashboard](https://github.com/CHENJIAMIAN/workday-dashboard)**<br>
+  WorkDay 为办公室与知识工作者提供工作日时间看板，下班倒计时并将剩余时间划分为块，规划每日进度。（TypeScript）
+- **[parametric-shopping-bag](https://github.com/CHENJIAMIAN/parametric-shopping-bag)**<br>
+  基于前端框架和Three.js的网页演示，提供可交互的参数化3D购物袋模型，可自定义尺寸并实时预览贴图效果。（TypeScript）
+- **[long-image-slicer-task](https://github.com/CHENJIAMIAN/long-image-slicer-task)**<br>
+  一款基于PWA的手机长截图切片工具，可自动分割长图并批量导出为ZIP，适用于浏览器离线使用。（JavaScript）
+- **[GroundMirrorReflect](https://github.com/CHENJIAMIAN/GroundMirrorReflect)**<br>
+  一个基于 Three.js 的地面镜面反射示例，支持实时模糊、法线扰动和自定义纹理，适用于网页交互式渲染或湿面效果演示。（HTML）
+- **[ground-reflection-threejs](https://github.com/CHENJIAMIAN/ground-reflection-threejs)**<br>
+  基于Three.js的单文件示例，演示Autodesk Forge Viewer式地面镜像反射、模糊与屏幕空间回投，便于研究或在项目中移植倒影效果。（HTML）
+- **[bilibili_yt_dlp_subs](https://github.com/CHENJIAMIAN/bilibili_yt_dlp_subs)**<br>
+  本仓库收录 GAMES101 现代计算机图形学的中文笔记，并提供批量将 SRT 字幕转换为 Markdown 的脚本，便于快速复习和二次校对。（SRecode Template）
+- **[codex-autopilot-npm](https://github.com/CHENJIAMIAN/codex-autopilot-npm)**<br>
+  在 Windows 环境下提供 CLI，帮助开发者恢复并逐回合推进已有的 Codex 会话。（JavaScript）
+- **[codex-autopilot](https://github.com/CHENJIAMIAN/codex-autopilot)**<br>
+  codex-autopilot 是 Windows 平台的 PowerShell 脚本，自动恢复 Codex CLI 会话并循环执行，适用于需要批量代码生成的开发者。（PowerShell）
 <!-- recent-projects:end -->
 
 > 更多近期更新：
