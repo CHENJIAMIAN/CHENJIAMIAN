@@ -10,7 +10,7 @@ const RECENT_MONTHS = Number.parseInt(process.env.RECENT_PROJECT_MONTHS || '3', 
 const README_PATH = process.env.README_PATH || 'README.md';
 const GITHUB_API = process.env.GITHUB_API_URL || 'https://api.github.com';
 const LLM_BASE_URL = (process.env.LLM_BASE_URL || 'https://api.cerebras.ai/v1').replace(/\/$/, '');
-const LLM_MODEL = process.env.LLM_MODEL || 'qwen-3-235b-a22b-instruct-2507';
+const LLM_MODEL = process.env.LLM_MODEL || 'gpt-oss-120b';
 
 const START_MARKER = '<!-- recent-projects:start -->';
 const END_MARKER = '<!-- recent-projects:end -->';
