@@ -22,32 +22,46 @@
 ### 🎇 Recently 最近
 
 <!-- recent-projects:start -->
-- **[Blog](https://github.com/CHENJIAMIAN/Blog)**<br>
-  Obsidian 笔记库，借助 VitePress 自动生成博客，适合将本地笔记同步为静态站点。
-- **[codex-ai-replies-cli](https://github.com/CHENJIAMIAN/codex-ai-replies-cli)**<br>
-  CLI工具读取本地Codex会话JSONL，生成助理、工具和MCP事件日志，便于审查调试。（JavaScript）
-- **[vscode-explorer-terminal-command](https://github.com/CHENJIAMIAN/vscode-explorer-terminal-command)**<br>
-  在 VS Code 资源管理器右键单文件或文件夹，即可在外部终端执行自定义命令，便于快速在对应目录运行脚本。（TypeScript）
+- **[codex-feishu-status](https://github.com/CHENJIAMIAN/codex-feishu-status)**<br>
+  实时同步本机Codex会话的状态和工作目录到飞书卡片，方便多任务或长时间运行时快速查看进度。（Go）
+- **[copy-folder-contents](https://github.com/CHENJIAMIAN/copy-folder-contents)**<br>
+  VS Code 插件，右键复制文件夹内文件内容，支持按扩展名过滤和排除，生成代码块，便于粘贴到文档或编辑器。（TypeScript）
+- **[vscode-extension-multicase-search-transformer](https://github.com/CHENJIAMIAN/vscode-extension-multicase-search-transformer)**<br>
+  这是一个 VS Code 扩展，能在光标所在单词一次性搜索其 camelCase 与 kebab-case 变体，帮助开发者快速定位不同命名风格的代码。（TypeScript）
+- **[vscode-extension-get-multi-cursor-search-results](https://github.com/CHENJIAMIAN/vscode-extension-get-multi-cursor-search-results)**<br>
+  这是一个VS Code插件，统计工作区内多光标选中单词的出现次数，适合代码审查或重构时快速了解词频。（TypeScript）
+- **[vscode-extension-open-any-filetype-in-browser](https://github.com/CHENJIAMIAN/vscode-extension-open-any-filetype-in-browser)**<br>
+  这是 VS Code 插件，可在编辑器中直接用自设浏览器打开任意本地文件，以便快速预览网页或文档。（TypeScript）
+- **[vscode-extension-multi-cursor-word-match-counter](https://github.com/CHENJIAMIAN/vscode-extension-multi-cursor-word-match-counter)**<br>
+  这是一款 VS Code 插件，可统计光标所在单词在文档中的出现次数，并直接将结果插入光标，适合快速查看词频的场景。（TypeScript）
+- **[vscode-extension-multi-cursor-ai-generate](https://github.com/CHENJIAMIAN/vscode-extension-multi-cursor-ai-generate)**<br>
+  这是一个 VS Code 插件，可在多光标或多选区并发调用 OpenAI 接口生成文本，适合批量 AI 辅助写作的编辑场景。（TypeScript）
 - **[prompt-file-generator](https://github.com/CHENJIAMIAN/prompt-file-generator)**<br>
-  VS Code 扩展，选中文件后用提示词调用 OpenAI 兼容模型批量生成新文件，适用于代码翻译或注释生成。（TypeScript）
-- **[SecurityWarning](https://github.com/CHENJIAMIAN/SecurityWarning)**<br>
-  基于OpenLayers的WebGIS系统，提供位置安全预警，配合Android客户端实现实时风险监测，并通过HttpHandler与本地数据库交互，支持登录验证。（JavaScript）
+  VS Code扩展，选中文件输入提示词，调用模型生成衍生文件，适用于注释翻译、单元测试等。（TypeScript）
+- **[vscode-explorer-terminal-command](https://github.com/CHENJIAMIAN/vscode-explorer-terminal-command)**<br>
+  在VSCode资源管理器右键单文件或文件夹，在终端执行命令，项目目录运行脚本或Git指令。（TypeScript）
 - **[workday-dashboard](https://github.com/CHENJIAMIAN/workday-dashboard)**<br>
-  WorkDay 为办公室与知识工作者提供工作日时间看板，下班倒计时并将剩余时间划分为块，规划每日进度。（TypeScript）
+  工作日看板面向办公室与知识工作者，提供下班倒计时、时间块划分和长期计划管理，帮助用户直观掌握每日进度。（TypeScript）
+- **[Blog](https://github.com/CHENJIAMIAN/Blog)**<br>
+  Obsidian 笔记生成 VitePress 博客，推送即触发 GitHub 动作部署，避免编辑器卡顿。
+- **[codex-ai-replies-cli](https://github.com/CHENJIAMIAN/codex-ai-replies-cli)**<br>
+  一个命令行工具，读取本地 Codex 会话的 JSONL，提取助手和 MCP 事件，便于审查。（JavaScript）
+- **[webgis-position-warning-legacy](https://github.com/CHENJIAMIAN/webgis-position-warning-legacy)**<br>
+  基于OpenLayers的WebGIS，配合安卓客户端，实现定位预警，适用于校园或企业的监控。（JavaScript）
 - **[parametric-shopping-bag](https://github.com/CHENJIAMIAN/parametric-shopping-bag)**<br>
-  基于前端框架和Three.js的网页演示，提供可交互的参数化3D购物袋模型，可自定义尺寸并实时预览贴图效果。（TypeScript）
+  一个基于前端框架的网页演示，可交互参数化调整三维购物袋尺寸并实时映射贴图，适用于包装设计可视化。（TypeScript）
 - **[long-image-slicer-task](https://github.com/CHENJIAMIAN/long-image-slicer-task)**<br>
-  一款基于PWA的手机长截图切片工具，可自动分割长图并批量导出为ZIP，适用于浏览器离线使用。（JavaScript）
+  基于 PWA 的工具，可自动将手机长截图切分为多张图片并 ZIP 导出，适合浏览器端快速处理。（JavaScript）
 - **[GroundMirrorReflect](https://github.com/CHENJIAMIAN/GroundMirrorReflect)**<br>
-  一个基于 Three.js 的地面镜面反射示例，支持实时模糊、法线扰动和自定义纹理，适用于网页交互式渲染或湿面效果演示。（HTML）
+  基于Three.js实现的地面镜面模糊效果，可调节模糊与扭曲，适用于湿润或光滑表面的渲染。（HTML）
 - **[ground-reflection-threejs](https://github.com/CHENJIAMIAN/ground-reflection-threejs)**<br>
-  基于Three.js的单文件示例，演示Autodesk Forge Viewer式地面镜像反射、模糊与屏幕空间回投，便于研究或在项目中移植倒影效果。（HTML）
+  一个基于 Three.js 的单文件示例，演示 Autodesk Forge Viewer 的地面倒影实现，便于研究和迁移该效果。（HTML）
 - **[bilibili_yt_dlp_subs](https://github.com/CHENJIAMIAN/bilibili_yt_dlp_subs)**<br>
-  本仓库收录 GAMES101 现代计算机图形学的中文笔记，并提供批量将 SRT 字幕转换为 Markdown 的脚本，便于快速复习和二次校对。（SRecode Template）
+  提供 GAMES101 计算机图形学中文笔记、字幕及生成 Markdown 笔记脚本，复习和处理字幕。（SRecode Template）
 - **[codex-autopilot-npm](https://github.com/CHENJIAMIAN/codex-autopilot-npm)**<br>
-  在 Windows 环境下提供 CLI，帮助开发者恢复并逐回合推进已有的 Codex 会话。（JavaScript）
+  这是一个面向 Windows 的 npm CLI 工具，可在已有 Codex 会话中逐轮恢复并自动推进，适用于需要批量或交互式继续 AI 对话的开发者。（JavaScript）
 - **[codex-autopilot](https://github.com/CHENJIAMIAN/codex-autopilot)**<br>
-  codex-autopilot 是 Windows 平台的 PowerShell 脚本，自动恢复 Codex CLI 会话并循环执行，适用于需要批量代码生成的开发者。（PowerShell）
+  Windows脚本自动恢复并逐轮执行CodexCLI会话，适合长时间连续交互的自动化任务。（PowerShell）
 <!-- recent-projects:end -->
 
 > 更多近期更新：
