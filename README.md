@@ -1,3 +1,5 @@
+[English](./README.en.md)
+
 <!-- codex-github-rules:bilingual-summary -->
 > **中文简介**：个人 GitHub Profile README
 
