@@ -1,3 +1,10 @@
+<!-- codex-github-rules:bilingual-summary -->
+> **中文简介**：个人 GitHub Profile README
+
+> **English summary**: Personal GitHub Profile README
+
+---
+
 [![](https://visitcount.itsvg.in/api?id=CHENJIAMIAN&icon=0&color=0)](https://visitcount.itsvg.in)
 [![](https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square&logo=buymeacoffee)](https://www.buymeacoffee.com/CHENJIAMIAN)
 
