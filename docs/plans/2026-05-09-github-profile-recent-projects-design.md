@@ -1,4 +1,6 @@
-# GitHub Profile Recent Projects Design
+# GitHub Profile 最近项目设计
+
+> [English](2026-05-09-github-profile-recent-projects-design.en.md)
 
 ## 背景
 

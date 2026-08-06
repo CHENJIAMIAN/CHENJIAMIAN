@@ -1,5 +1,7 @@
 # GitHub Profile 自动更新近期项目设计
 
+> [English](2026-05-09-auto-update-recent-projects-design.en.md)
+
 ## 背景
 
 GitHub Profile README 的 `Recently 最近` 区块目前需要手工维护。用户希望改为自动更新，并用 OpenAI 兼容 LLM 接口自动总结项目描述。
