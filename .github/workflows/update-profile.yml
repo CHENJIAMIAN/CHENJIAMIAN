@@ -34,7 +34,11 @@ jobs:
           GITHUB_OWNER: CHENJIAMIAN
           PROFILE_REPO: CHENJIAMIAN
           RECENT_PROJECT_MONTHS: '3'
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          # 2026-10-16 起改用 OpenRouter 免费模型（实测每次调用 cost=0，免费额度 1000 次/天）。
+          # 旧通道保留未删：secret「LLM_API_KEY」= Cerebras key，
+          # LLM_BASE_URL=https://api.cerebras.ai/v1，LLM_MODEL=gpt-oss-120b；
+          # 该 Cerebras 账号额度已耗尽（402 Payment required），故弃用。
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY_FREE }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_HTTP_REFERER: https://cherry-ai.com
