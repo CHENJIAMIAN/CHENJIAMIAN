@@ -32,223 +32,223 @@
 
 <!-- recent-projects:start -->
 - **[GAMES102-subtitles](https://github.com/CHENJIAMIAN/GAMES102-subtitles)**<br>
-  提供GAMES102课程全套中文字幕、讲义总结与知识脑图，助力几何建模学习入门
+  GAMES102 课程全 15 集中文字幕（SRT），用于配合 B 站视频学习几何建模与处理
 - **[bmap-singlehtml](https://github.com/CHENJIAMIAN/bmap-singlehtml)**<br>
-  提供百度地图与 MapV 的纯 HTML 单页示例，帮助开发者快速上手可视化地图开发。（HTML）
+  提供基于百度地图和 MapV 的纯 HTML 单页示例，便于快速演示、学习和入门 WebGIS 开发。（HTML）
 - **[awesome-chatgpt-prompts-zh-CN](https://github.com/CHENJIAMIAN/awesome-chatgpt-prompts-zh-CN)**<br>
-  本仓库收录完整中文 ChatGPT 提示词及 AIPRM 快照，供直接调用与研究。（HTML）
+  ChatGPT 提示词中文合集，收录 2169 条上游提示词及 1536 条 AIPRM 提示词，提供 CSV、JSON、Markdown 多种格式，便于直接使用与检索。（HTML）
 - **[commandcode-proxy](https://github.com/CHENJIAMIAN/commandcode-proxy)**<br>
-  提供 Command Code API 到 OpenAI 与 Anthropic 兼容接口的反向代理，内置模型白名单功能，支持流式与非流式调用，适用于本地开发与集成测试（JavaScript）
+  把 Command Code API 反向代理为 OpenAI 和 Anthropic 兼容接口，并提供模型白名单功能，适用于需要统一调用大模型的开发者场景（JavaScript）
 - **[ht-vs-threejs](https://github.com/CHENJIAMIAN/ht-vs-threejs)**<br>
-  HT for Web 与 Three.js 实现细节对比文档，详细比较数据模型、渲染管线、着色器、动画等16章全面内容。
+  对比 HT for Web 与 Three.js 实现细节的 16 章技术文档，阐明数据模型、渲染管线、着色器等方面的异同。
 - **[bambu-studio-analysis](https://github.com/CHENJIAMIAN/bambu-studio-analysis)**<br>
-  拓竹源码分析学习包，用于深入研究可打印性修复与非流形处理实现。
+  本仓库提供拓竹切片软件可打印性修复与非流形处理的源码阅读笔记，适用于切片技术学习。
 - **[dasd.noqbl.com](https://github.com/CHENJIAMIAN/dasd.noqbl.com)**<br>
-  本仓库提供 DASD 网站及其静态资源的完整本地归档，方便离线浏览、学习和研究使用。（JavaScript）
+  DASD网站及其静态资源的本地归档，适用于个人学习、技术交流和资料长期保存。（JavaScript）
 - **[kyberswap-official-website-sourcecode](https://github.com/CHENJIAMIAN/kyberswap-official-website-sourcecode)**<br>
-  KyberSwap 官方网站 2022 年 3 月源码归档，供学习研究去中心化交易所前端实现与代码参考。（TypeScript）
+  KyberSwap 官网 2022 年 3 月源码归档，用于学习研究去中心化交易所前端。（TypeScript）
 - **[Trae-System-Prompt](https://github.com/CHENJIAMIAN/Trae-System-Prompt)**<br>
-  用于获取Trae IDE系统提示词的工具，帮助开发者及时查看和使用Trae的系统提示。
+  提供TraeIDE系统提示词获取方法帮助开发者快速了解和使用内置提示的
 - **[wechat-get](https://github.com/CHENJIAMIAN/wechat-get)**<br>
-  用于绕过微信公众号文章验证限制，一键获取完整原文的命令行工具（JavaScript）
+  用于突破微信公众号验证限制，一键轻松获取完整原文的命令行工具（JavaScript）
 - **[xt3d-Situation-Command-of-Public-Security-Exercises](https://github.com/CHENJIAMIAN/xt3d-Situation-Command-of-Public-Security-Exercises)**<br>
-  这是一个基于 Cesium.js 和 xt3d.js 构建的三维公安演练态势指挥平台，提供演练场景的立体可视化与指挥调度功能。（JavaScript）
+  基于 Cesium.js 与 xt3d.js 的三维公安演练态势指挥平台，提供 3DTiles/GLTF 资源的可视化与交互，适用于应急指挥与态势感知场景。（JavaScript）
 - **[xt3d-local-debug](https://github.com/CHENJIAMIAN/xt3d-local-debug)**<br>
-  这是一个用于本地调试非侵入式 Cesium 扩展 xt3d.js 的项目，收录库本体、官方演示源码与 API 文档，便于研究学习。（JavaScript）
+  本项目旨在提供非侵入式 Cesium 扩展 xt3d.js 的本地调试环境，集成库本体、官方演示源码与 API 文档，方便开发者进行学习研究。（JavaScript）
 - **[finemaxdemo.fanruan.com](https://github.com/CHENJIAMIAN/finemaxdemo.fanruan.com)**<br>
-  帆软Calder逆向研究与3D产线流程看板演示，用于学习其内部实现和可视化应用（Roff）
+  帆软 Calder 逆向研究及 3D 产线流程看板演示，展示其内部结构与可视化应用。（Roff）
 - **[imdc.ncpi_om.com](https://github.com/CHENJIAMIAN/imdc.ncpi_om.com)**<br>
-  施耐德数据中心演示的逆向研究副本用于学习和研究数据中心可视化与仿真技术（JavaScript）
+  施耐德数据中心演示的逆向研究副本展示液冷管路温度云图母线温度及气流与电力潮流模拟（JavaScript）
 - **[reverse-uiotos-community](https://github.com/CHENJIAMIAN/reverse-uiotos-community)**<br>
-  研究 UIOTOS 社区版零代码前端的结构与实现，用于学习、技术交流及逆向分析。（JavaScript）
+  研究 UIOTOS 社区版零代码前端逆向工程，探讨可视化拖拽及逻辑连线实现（JavaScript）
 - **[GAMES101](https://github.com/CHENJIAMIAN/GAMES101)**<br>
-  提供 GAMES101 现代计算机图形学课程的中文结构化笔记、源字幕和批量总结脚本，便于学习与复习。（SRecode Template）
+  GAMES101 现代计算机图形学课程的中文结构化笔记、源字幕及批量总结脚本，便于学习与复习（SRecode Template）
 - **[workday-dashboard](https://github.com/CHENJIAMIAN/workday-dashboard)**<br>
-  工作日数据看板提供实时下班倒计时与时间块分配，助力办公人员合理安排工作与休息。（TypeScript）
+  工作日数据看板，帮助办公室人员实时追踪下班倒计时与时间分配。（TypeScript）
 - **[codex-ai-replies-cli](https://github.com/CHENJIAMIAN/codex-ai-replies-cli)**<br>
-  从 Codex 会话记录中提取助手回复、工具调用和 MCP 事件的命令行工具，方便查看和分析（JavaScript）
+  从 Codex 会话记录中提取助手、工具和 MCP 事件的命令行工具，帮助快速查看交互历史。（JavaScript）
 - **[Blog](https://github.com/CHENJIAMIAN/Blog)**<br>
-  基于 Obsidian 笔记库，利用 GitHub Actions 自动将笔记同步构建为 VitePress 博客并部署，并在每次推送时自动更新
+  一个基于 Obsidian 的个人笔记库，通过 GitHub Actions 自动构建并部署 VitePress 博客，适合希望用 Obsidian 写作并自动发布博客的用户
 - **[hightopo-api-docs-markdown-20260813](https://github.com/CHENJIAMIAN/hightopo-api-docs-markdown-20260813)**<br>
-  HT for Web API 文档的 Markdown 快照，提供离线检索与研究的结构化页面，适用于开发者查阅和版本对比。（Python）
+  HT for Web API 文档的 Markdown 快照，提供离线检索和结构化索引，适合文档研究与本地查询，且可用于版本对比与变更追踪。（Python）
 - **[vscode-explorer-terminal-command](https://github.com/CHENJIAMIAN/vscode-explorer-terminal-command)**<br>
-  在 VS Code 资源管理器中右键文件或文件夹，即可在外部终端执行自定义命令。（TypeScript）
+  此扩展让你在 VS Code 资源管理器中右键文件或文件夹，在外部终端运行自定义命令，支持命令历史。（TypeScript）
 - **[apifox-testcase-corpus](https://github.com/CHENJIAMIAN/apifox-testcase-corpus)**<br>
-  提供可供 AI 生成并直接导入 Apifox 的 API 测试场景语料，帮助快速构建标准化测试用例。
+  提供可供 AI 生成并导入 Apifox 的 API 测试场景语料，助力快速构建标准化测试用例。
 - **[three-obj-packer](https://github.com/CHENJIAMIAN/three-obj-packer)**<br>
-  基于 Three.js 的高性能 OBJ、MTL 与纹理导出工具，可调导出精度、进行网格简化并自动打包纹理。（JavaScript）
+  基于 Three.js 的高性能 OBJ、MTL 与纹理导出工具，支持精度调节、网格简化和纹理自动打包。（JavaScript）
 - **[codex-autopilot-npm](https://github.com/CHENJIAMIAN/codex-autopilot-npm)**<br>
-  一个在 Windows 上逐轮恢复并推进 Codex 会话的 npm 命令行工具（JavaScript）
+  在 Windows 上逐轮恢复并推进 Codex 会话的 npm CLI 工具（JavaScript）
 - **[Tech-Stack-Analyzer-chrome-extension](https://github.com/CHENJIAMIAN/Tech-Stack-Analyzer-chrome-extension)**<br>
-  一款基于 AI 的 Chrome 扩展，可快速识别并分析网站使用的技术栈，帮助开发者快速了解竞品或学习参考。（JavaScript）
+  一款基于 AI 的 Chrome 扩展，可快速识别并分析网站使用的技术栈，帮助开发者了解竞品或学习参考。（JavaScript）
 - **[threejs-screenshot-exporter](https://github.com/CHENJIAMIAN/threejs-screenshot-exporter)**<br>
-  基于 Three.js 的高性能截图导出工具，支持超高分辨率、水印和多种格式，适用于 3D 可视化场景的图像输出。（Vue）
+  基于 Three.js 的高性能场景截图导出工具，支持超高分辨率、自定义水印和多种图片格式。（Vue）
 - **[copy-folder-contents](https://github.com/CHENJIAMIAN/copy-folder-contents)**<br>
-  此扩展可复制所选文件夹中所有文件的内容及相对路径直接粘贴到剪贴板适用于代码共享与文档撰写（TypeScript）
+  VSCode扩展，可将选中文件夹内所有文件内容及相对路径复制到剪贴板。（TypeScript）
 - **[prompt-file-generator](https://github.com/CHENJIAMIAN/prompt-file-generator)**<br>
-  一个 VS Code 扩展，通过选中文件并输入提示词，使用 OpenAI 兼容 API 生成对应的派生文件。（TypeScript）
+  VS Code 扩展，通过 OpenAI 兼容 API 根据提示词为选中文本文件批量生成派生文件，支持自定义命名与多服务切换。（TypeScript）
 - **[Web3-Counter-App](https://github.com/CHENJIAMIAN/Web3-Counter-App)**<br>
-  一个基于 Hardhat 的 Solidity 计数器合约，配合 React 前端演示钱包交互的 Web3 学习示例，帮助开发者理解链上状态变化与前端同步。（JavaScript）
+  演示如何使用 Hardhat 部署 Solidity 合约，并通过 React 前端与 MetaMask 实现链上计数增减的 Web3 学习项目。（JavaScript）
 - **[industrial-glb-exporter](https://github.com/CHENJIAMIAN/industrial-glb-exporter)**<br>
-  基于Web的工业级GLB模型导出与优化工具，支持多精度导出以满足存档、展示和预览需求。（JavaScript）
+  基于 Web 的工业级 GLB 模型导出与优化工具，提供存档、标准、预览三种精度导出，支持 Web Worker 后台处理与实时预览。（JavaScript）
 - **[smart-factory-spacetimedb](https://github.com/CHENJIAMIAN/smart-factory-spacetimedb)**<br>
-  基于 SpacetimeDB 的智能工厂数字孪生原型，实现传感器实时采集、状态镜像、告警及大屏可视化。（Rust）
+  基于 SpacetimeDB 的智能工厂数字孪生原型，实现传感器数据实时采集、状态镜像、告警及大屏可视化。（Rust）
 - **[line-mover-plugin](https://github.com/CHENJIAMIAN/line-mover-plugin)**<br>
-  Obsidian 插件，通过快捷键快速上下移动编辑器中的文本行，提升笔记整理效率。（JavaScript）
+  一款 Obsidian 插件，通过快捷键快速上下移动编辑器中的文本行，帮助作家和学生快速调整笔记结构。（JavaScript）
 - **[yuexu-lunar-almanac](https://github.com/CHENJIAMIAN/yuexu-lunar-almanac)**<br>
-  一款每日自动更新、低资源占用的全年农历桌面日历，可直接设为桌面壁纸。（Rust）
+  一款每天自动更新、低资源占用的 Windows 全年农历桌面日历，提供离线无后台服务的农历壁纸。（Rust）
 - **[cherry-studio-cli](https://github.com/CHENJIAMIAN/cherry-studio-cli)**<br>
-  Cherry Studio 本地 API 命令行工具，支持模型别名与多种工作流兼容。（PowerShell）
+  Cherry Studio 本地 API 命令行工具，支持模型别名管理，并提供 Chat、Anthropic、Responses 三种兼容的调用方式，适用于本地模型快速交互与集成。（PowerShell）
 - **[digital-twin-spacetimedb-demo](https://github.com/CHENJIAMIAN/digital-twin-spacetimedb-demo)**<br>
-  提供实时网关与看板的数字孪生演示，用于设备遥测、健康评估与告警可视化。（HTML）
+  数字孪生演示系统，提供设备遥测模拟、实时网关与健康告警，支持前端看板实时更新。（HTML）
 - **[digital-twin-spacetimedb](https://github.com/CHENJIAMIAN/digital-twin-spacetimedb)**<br>
-  一个支持设备模拟、健康评分、告警和实时看板的数字孪生 MVP，用于快速验证 IoT 设备状态监控与预警流程。（HTML）
+  该项目提供设备模拟、健康评分、告警和实时看板，帮助用户快速构建数字孪生原型。（HTML）
 - **[react-tubi-tv-demo](https://github.com/CHENJIAMIAN/react-tubi-tv-demo)**<br>
-  一个模仿 Tubi TV 界面的 React 前端演示，全面提供视频浏览、搜索、播放和用户管理。（CSS）
+  这是一个仿 Tubi TV 界面的 React 前端演示，提供内容发现、视频播放、用户登录和观看记录等功能。（CSS）
 - **[browser-history-backup](https://github.com/CHENJIAMIAN/browser-history-backup)**<br>
-  面向 Windows 的本地 Chrome 浏览历史备份 CLI，支持日期范围导出及 Codex 自动调用，历史仅保存在本地。（PowerShell）
+  面向 Windows 的隐私优先本地 Chrome 历史备份 CLI，支持日期范围导出、元数据记录及 Windows 任务计划自动化。（PowerShell）
 - **[universal-search-tool](https://github.com/CHENJIAMIAN/universal-search-tool)**<br>
-  一个支持 Google、Bing 和 DuckDuckGo 的命令行搜索工具，提供零配置、跨平台的搜索体验，帮助安全研究人员快速获取多引擎结果。（Python）
+  支持 Google、Bing、DuckDuckGo 的命令行搜索工具，专注安全研究与隐私保护的信息检索，及时获取所需数据。（Python）
 - **[www.thingjs.com](https://github.com/CHENJIAMIAN/www.thingjs.com)**<br>
-  纯ThingJS演示项目，用于本地调试、学习案例以及快速验证效果并提供可直接修改的示例文件（JavaScript）
+  这是一个用于本地调试的纯 ThingJS 演示，便于开发者及时快速运行和查看示例。（JavaScript）
 - **[webgis-position-warning-legacy](https://github.com/CHENJIAMIAN/webgis-position-warning-legacy)**<br>
-  基于开源地图库的 WebGIS 位置安全预警系统，配合移动端实时定位与预警。（JavaScript）
+  基于 OpenLayers 的 WebGIS 位置安全预警系统，配合 TestGeoPosition 安卓端实现实时定位与风险提示功能。（JavaScript）
 - **[webgis-position-warning](https://github.com/CHENJIAMIAN/webgis-position-warning)**<br>
   基于 OpenLayers 的位置预警 WebGIS 系统，用于实时监测和提示地理位置风险，适合校园或区域安全监控场景。（JavaScript）
 - **[vue-singlewebpack](https://github.com/CHENJIAMIAN/vue-singlewebpack)**<br>
-  一个基于纯 Webpack 搭建的 Vue 与 Ant Design Vue 最小示例项目，帮助开发者快速了解构建流程并进行二次开发。（JavaScript）
+  一个基于纯 Webpack 搭建的 Vue 与 Ant Design Vue 最小示例项目，适合快速学习和调试组件库集成。（JavaScript）
 - **[vue-antd-template](https://github.com/CHENJIAMIAN/vue-antd-template)**<br>
-  这是一个基于 Vue 和 Ant Design 的 CodeSandbox 模板，用于快速启动前端开发，适合学习和演示 Vue 与 Ant Design 组合使用的项目结构。（JavaScript）
+  这是一个基于 Vue 框架与 Ant Design 组件库的 CodeSandbox 模板，适用于快速初始化前端开发项目。（JavaScript）
 - **[upland-vue3-ts-vite-vant-tailwind](https://github.com/CHENJIAMIAN/upland-vue3-ts-vite-vant-tailwind)**<br>
-  基于 Vue 3、TypeScript、Vite、Vant、Tailwind CSS 和 OpenLayers 的地图前端，提供可配置图层、坐标转换和交互功能，适用于构建移动端和 Web 地图应用。（Vue）
+  基于 Vue 3、TypeScript、Vite、Vant、Tailwind CSS 和 OpenLayers 的交互式地图前端框架，适用于构建移动端和 Web 地图应用，提供丰富的图层管理和坐标转换功能。（Vue）
 - **[upland-egg-backend](https://github.com/CHENJIAMIAN/upland-egg-backend)**<br>
-  基于 Egg.js 构建的 Upland 项目后端服务，提供 API 接口支持前端与数据交互。（JavaScript）
+  基于Egg.js框架开发的Upland后端服务，用于提供稳定的API接口。（JavaScript）
 - **[uniswapv3-kyberswap-flash-swap](https://github.com/CHENJIAMIAN/uniswapv3-kyberswap-flash-swap)**<br>
-  基于 Uniswap V3 与 KyberSwap 的闪兑示例 | A flash-swap example using Uniswap V3 and KyberSwap（TypeScript）
+  本项目演示如何使用 Uniswap V3 与 KyberSwap 进行闪兑交易，适合研究链上套利和流动性操作（TypeScript）
 - **[threejs-smartcity](https://github.com/CHENJIAMIAN/threejs-smartcity)**<br>
   基于 Three.js 加载 GeoJSON 实现的智慧城市三维可视化方案，适用于城市规划与数据展示场景。（JavaScript）
 - **[threejs-dissolve-playground](https://github.com/CHENJIAMIAN/threejs-dissolve-playground)**<br>
   一个基于 Three.js 的交互式溶解着色器演示，可实时调节阈值、边缘辉光、颜色和几何体。（HTML）
 - **[threejs-dev-mirror](https://github.com/CHENJIAMIAN/threejs-dev-mirror)**<br>
-  Three.js官方开发分支代码镜像，提供最新功能与修复，适合尝试前沿特性的开发者使用。（JavaScript）
+  该仓库为Three.js官方开发分支的代码镜像，方便开发者获取最新功能并进行自定义构建。（JavaScript）
 - **[three.js-analysis](https://github.com/CHENJIAMIAN/three.js-analysis)**<br>
-  本项目对 Three.js TSL 节点系统进行深入技术分析，帮助开发者理解其架构、执行流程及实现细节。
+  本项目对 Three.js TSL 节点系统进行深入技术分析，帮助开发者理解其架构与实现细节。
 - **[TestGeoPosition](https://github.com/CHENJIAMIAN/TestGeoPosition)**<br>
-  一款用于采集 GPS 位置并向云端请求安全状态的 Android 毕业设计应用，配合 SecurityWarning 使用。（Java）
+  采集 GPS 位置向云端获取安全状态，配合 SecurityWarning Android 毕业设计。（Java）
 - **[tambo-how-it-works-site](https://github.com/CHENJIAMIAN/tambo-how-it-works-site)**<br>
-  一个用于详细说明 Tambo 核心机制与使用场景的在线文档网站，帮助开发者快速上手（TypeScript）
+  一个用于解释 Tambo 工作原理的网站，帮助用户了解其内部机制和使用场景。（TypeScript）
 - **[supermap-cesium-local-debug](https://github.com/CHENJIAMIAN/supermap-cesium-local-debug)**<br>
-  该项目提供本地调试 SuperMap iClient3D for Cesium 11i SP1 所需的代码、数据和运行指令，帮助开发者快速定位和解决问题。（JavaScript）
+  SuperMap iClient3D for Cesium 11i SP1 本地调试工具，帮助开发者在本地快速验证、修复和优化三维地图应用。（JavaScript）
 - **[StockPage](https://github.com/CHENJIAMIAN/StockPage)**<br>
-  基于 Vue 2 和 Ant Design Vue 构建的股票行情 H5 应用，用于展示实时股票数据与简单交易操作。（Vue）
+  基于 Vue 2 和 Ant Design Vue 构建的股票行情 H5 应用，适用于移动端股票信息查询与可视化。（Vue）
 - **[shared-worker](https://github.com/CHENJIAMIAN/shared-worker)**<br>
-  演示浏览器 SharedWorker 跨页面共享状态与通信的示例项目（HTML）
+  演示浏览器共享工作线程跨页面共享状态与通信的简单示例项目（HTML）
 - **[screen-timeline-recorder](https://github.com/CHENJIAMIAN/screen-timeline-recorder)**<br>
-  Windows 优先的屏幕录制工具，支持本地查看、托盘控制、自启动及 FFmpeg 分段录制，稳定可靠。（Rust）
+  Windows 优先的屏幕录制工具，支持本地查看、托盘控制、自启动及高效 FFmpeg 分段录制。（Rust）
 - **[PHOTOS](https://github.com/CHENJIAMIAN/PHOTOS)**<br>
-  用于存放 GitHub Markdown 文档中所需图片的资源仓库，方便开发者在项目中直接引用和管理。
+  用于存放GitHubMarkdown文档中引用的图片资源，方便在不同仓库之间复用与统一管理
 - **[OpenLayers-load-shp-data](https://github.com/CHENJIAMIAN/OpenLayers-load-shp-data)**<br>
-  本示例演示如何使用 OpenLayers 加载 SHP 格式的矢量图层，适用于需要在 Web 地图中快速展示 Shapefile 数据的开发场景。（PLpgSQL）
+  使用 OpenLayers 加载 SHP 格式矢量图层的示例代码，帮助开发者在 Web GIS 应用中快速展示 Shapefile 数据。（PLpgSQL）
 - **[OpenLayers-3.x-Cookbook-Doc](https://github.com/CHENJIAMIAN/OpenLayers-3.x-Cookbook-Doc)**<br>
-  OpenLayers 3.x Cookbook 第二版中文文档与示例代码，帮助开发者快速上手地图开发，适用于构建交互式Web GIS应用（JavaScript）
+  OpenLayers 3.x Cookbook 第二版中文文档与源码，适用于地图开发学习。（JavaScript）
 - **[openclaw-showcase-20260226](https://github.com/CHENJIAMIAN/openclaw-showcase-20260226)**<br>
-  OpenClaw 项目的 HTML 展示示例，适合初学者快速了解其功能、结构及使用方法，便于参考与二次开发。（HTML）
+  一个用 HTML 实现的 OpenClaw 项目展示示例，用于演示其功能和用法。（HTML）
 - **[open-templates](https://github.com/CHENJIAMIAN/open-templates)**<br>
-  提供飞书 Aily 与妙搭风格的高质量模板，包含示例、预览资源和 CLI，助力快速构建文档、幻灯片和网页。（JavaScript）
+  提供飞书 Aily 与妙搭风格模板，包含示例、预览和 CLI，助力快速生成文档与演示。（JavaScript）
 - **[Nuxt-Project-Guide](https://github.com/CHENJIAMIAN/Nuxt-Project-Guide)**<br>
-  提供 Nuxt.js 项目结构、配置及前端模板的参考指南，帮助快速搭建标准化应用。（JavaScript）
+  Nuxt.js 项目结构、配置与前端模板指南，助力快速上手。（JavaScript）
 - **[NoteList-BFF-APP](https://github.com/CHENJIAMIAN/NoteList-BFF-APP)**<br>
-  一个基于 Node.js 的笔记列表全栈应用，演示前后端分离及 Docker 容器化部署实践，适合学习和教学使用。（JavaScript）
+  这是一个使用 Node.js 构建的笔记列表应用，包含前端界面、后端服务和数据库存储，借助 Docker Compose 实现快速一键部署与本地调试。（JavaScript）
 - **[note-of-learningwebgl-of-CSGrandeur](https://github.com/CHENJIAMIAN/note-of-learningwebgl-of-CSGrandeur)**<br>
-  CSGrandeur 的 WebGL 学习笔记目录，收录从基础三角形到高级光照的完整示例，帮助初学者逐步掌握 WebGL 开发。（HTML）
+  CSGrandeur 的 WebGL 学习笔记目录，提供从基础到进阶的示例与代码，帮助初学者系统学习 WebGL 图形编程。（HTML）
 - **[NiuRebate](https://github.com/CHENJIAMIAN/NiuRebate)**<br>
-  基于支付宝小程序的多用户返利平台支持商家开展返利活动并管理用户（JavaScript）
+  基于支付宝小程序的多用户返利平台，帮助商家实现返利活动与用户管理（JavaScript）
 - **[MeshReflectorMaterial](https://github.com/CHENJIAMIAN/MeshReflectorMaterial)**<br>
-  提供不依赖 React 和 Vue 的反射材质实现，适用于 Three.js 场景中的真实高质量镜面反射效果。（JavaScript）
+  提供独立于 React 和 Vue 的高质量反射材质实现，适用于 Three.js 场景中的镜面反射效果。（JavaScript）
 - **[mars3d-max-shihua-3dtiles](https://github.com/CHENJIAMIAN/mars3d-max-shihua-3dtiles)**<br>
-  提供石化厂区的 3D Tiles 数据及在线预览，支持在 Mars3D 中进行场景可视化与分析。（HTML）
+  提供石化工厂三维场景的三维瓦片数据及在线预览，支持可视化分析。（HTML）
 - **[mapbox-singlewebpack](https://github.com/CHENJIAMIAN/mapbox-singlewebpack)**<br>
-  这是一个使用纯 Webpack 构建的最小 Mapbox GL 示例，适合初学者快速上手并进行二次开发。（JavaScript）
+  一个使用纯 Webpack 构建的最小 Mapbox GL 示例，帮助开发者快速入门和学习 Mapbox GL 的基本用法。（JavaScript）
 - **[long-image-slicer-task](https://github.com/CHENJIAMIAN/long-image-slicer-task)**<br>
-  一个用于智能切割手机长截图的渐进式 Web 应用，支持多图导出和 ZIP 打包。（JavaScript）
+  一款用于智能切分手机长截图的PWA工具，支持多图及ZIP导出。（JavaScript）
 - **[leetcode-top-comments](https://github.com/CHENJIAMIAN/leetcode-top-comments)**<br>
-  根据 LeetCode 讨论热度生成的题目排名榜单，帮助开发者快速发现热门算法题。（HTML）
+  根据 LeetCode 讨论热度生成题目排名榜单，帮助开发者快速发现热门算法题。（HTML）
 - **[leaflet-singlewebpack](https://github.com/CHENJIAMIAN/leaflet-singlewebpack)**<br>
-  这是一个仅使用 Webpack 构建的最小 Leaflet 地图示例，简单便于学习和快速原型开发。（JavaScript）
+  一个使用纯 Webpack 构建的最小 Leaflet 地图示例，适合初学者快速上手 Leaflet 与 Webpack 的集成学习。（JavaScript）
 - **[InterpolatedGradientMaterial](https://github.com/CHENJIAMIAN/InterpolatedGradientMaterial)**<br>
-  本演示利用 Three.js 自定义插值渐变材质，展示物体表面温度分布的热力图可视化。（HTML）
+  本演示利用 Three.js 框架及自定义的插值渐变材质，展示如何在三维模型上绘制温度分布的热力图。（HTML）
 - **[html_to_ppt](https://github.com/CHENJIAMIAN/html_to_ppt)**<br>
-  该工具可将 HTML 格式的演示文稿高保真转换为幻灯片文件，尤其适用于 ChatGLM 生成的网页幻灯片。（HTML）
+  用于将HTML演示文稿高保真转换为PowerPoint幻灯片的工具，专门适配ChatGLM生成的网页幻灯片。（HTML）
 - **[GroundMirrorReflect](https://github.com/CHENJIAMIAN/GroundMirrorReflect)**<br>
-  基于Three.js的Reflector+实现可调节模糊与扭曲的镜面地面反射效果（HTML）
+  基于 Reflector 实现的可调节镜面模糊地面反射效果，适用于网页三维场景的真实感增强。（HTML）
 - **[ground-reflection-threejs](https://github.com/CHENJIAMIAN/ground-reflection-threejs)**<br>
-  基于 Three.js 的地面反射演示，提炼自 Forge Viewer，用于学习镜像相机与屏幕空间回投。（HTML）
+  基于 Three.js 的地面反射演示，源自 Autodesk Forge Viewer，用于学习镜像相机与屏幕空间回投的实现方法。（HTML）
 - **[github-release-note-exporter](https://github.com/CHENJIAMIAN/github-release-note-exporter)**<br>
-  该工具用于批量获取指定仓库的 GitHub Release 日志，并按照版本区间导出为 Markdown 文件。（HTML）
+  该工具用于批量下载指定仓库的所有 Release 日志并根据用户给定的版本区间生成对应的 Markdown 文档（HTML）
 - **[gis-mini-lab](https://github.com/CHENJIAMIAN/gis-mini-lab)**<br>
-  基于 MapLibre 的轻量 GIS 实验场，适合开发者在地图上快速验证点、线、面数据并进行简单交互（HTML）
+  基于 MapLibre 的轻量 GIS 实验场，适合快速测试地图交互和地理数据可视化。（HTML）
 - **[gis-bim-3d-prototype-vue2](https://github.com/CHENJIAMIAN/gis-bim-3d-prototype-vue2)**<br>
-  基于 Vue 2 构建的 GIS/BIM 三维可视化原型，用于快速搭建三维地理信息与建筑信息模型展示。（JavaScript）
+  基于 Vue 2 构建的 GIS/BIM 三维可视化原型，适用于快速搭建空间数据展示与交互原型。（JavaScript）
 - **[GeoServer-Beginners-Guide](https://github.com/CHENJIAMIAN/GeoServer-Beginners-Guide)**<br>
-  GeoServer 初学者指南资料，提供教程示例，帮助新手掌握空间数据发布与服务配置。（HTML）
+  GeoServer 初学者指南，提供入门教程与实例，帮助新手快速掌握空间数据发布与服务配置。（HTML）
 - **[Fast-TypeScript-Syntax-Usage](https://github.com/CHENJIAMIAN/Fast-TypeScript-Syntax-Usage)**<br>
-  提供TypeScript语法速查示例，帮助开发者快速定位用法。（TypeScript）
+  提供 TypeScript 常用语法的速查示例，帮助开发者快速定位和学习语法用法。（TypeScript）
 - **[ExtractorGlbFromB3DM](https://github.com/CHENJIAMIAN/ExtractorGlbFromB3DM)**<br>
-  从 B3DM 文件中提取 GLB 模型及其材质资源的工具，适用于 3DTiles 数据处理与模型复用场景。（JavaScript）
+  从 B3DM 文件中提取 GLB 模型和材质资源，用于 3DTiles 数据的高效解包与后处理。（JavaScript）
 - **[DissolveMaterial](https://github.com/CHENJIAMIAN/DissolveMaterial)**<br>
-  基于 Three.js 的可自定义溶解材质示例，用于实现模型表面的逐步消散效果。（JavaScript）
+  本项目基于 Three.js 实现了一种可调节溶解范围、强度与边缘颜色的材质效果，适用于场景特效和交互演示。（JavaScript）
 - **[dingtalk-md-docx-postprocess](https://github.com/CHENJIAMIAN/dingtalk-md-docx-postprocess)**<br>
-  该工具使用 PowerShell 修复钉钉 Markdown 导出为 DOCX 后出现的格式问题，使文档样式更符合预期。（PowerShell）
+  用于修复钉钉 Markdown 导出为 DOCX 后出现的代码底纹、表格对齐等格式问题的 PowerShell 工具（PowerShell）
 - **[create-and-deploy-an-erc20-token-in-20-minutes](https://github.com/CHENJIAMIAN/create-and-deploy-an-erc20-token-in-20-minutes)**<br>
-  一个教程，帮助开发者在20分钟内使用JavaScript创建并部署ERC-20代币。（JavaScript）
+  本教程指导开发者使用Remix和Hardhat在20分钟内完成ERC-20代币的编写、编译、部署及基本交互。（JavaScript）
 - **[crash-course-philosophy-notes](https://github.com/CHENJIAMIAN/crash-course-philosophy-notes)**<br>
-  速成哲学课系列视频的中文结构化总结，帮助学习者快速掌握哲学核心概念与论证。
+  本仓库提供 Crash Course Philosophy 系列视频的中文结构化总结，帮助学习者快速掌握哲学核心概念。
 - **[coze-coding-skills](https://github.com/CHENJIAMIAN/coze-coding-skills)**<br>
-  提供基于Coze平台的可复用编程技能模块，支持Python和TypeScript SDK，帮助快速构建AI应用功能。（Python）
+  提供可复用的Coze Coding技能模块，支持Python和TypeScript SDK，帮助开发者快速实现AI应用的数据处理、媒体生成与集成功能。（Python）
 - **[codex-autopilot](https://github.com/CHENJIAMIAN/codex-autopilot)**<br>
-  该工具在 Windows 系统中自动恢复 Codex CLI 会话并逐轮推进，支持断点续运行，可根据配置的提示词和最大轮数自动执行（PowerShell）
+  在Windows上自动恢复并逐步推进CodexCLI会话的封装工具（PowerShell）
 - **[city-update-3d](https://github.com/CHENJIAMIAN/city-update-3d)**<br>
-  基于 Vite、Vue 2.7 和 TypeScript 的城市更新二三维 WebGIS 展示平台，用于城市规划与更新的空间数据可视化。（JavaScript）
+  基于 Vite、Vue 2.7 和 TypeScript 的城市更新二三维 WebGIS 展示平台，适用于城市规划与更新的空间数据可视化。（JavaScript）
 - **[chrome-history-daily-summary](https://github.com/CHENJIAMIAN/chrome-history-daily-summary)**<br>
-  一款纯前端工具，导入 Chrome 历史 JSON，按天聚类并生成每日活动摘要。（HTML）
+  Chrome 历史记录每日摘要工具，导入 history.json 按日期聚类生成当天总结。（HTML）
 - **[chrome-extension-tech-stack](https://github.com/CHENJIAMIAN/chrome-extension-tech-stack)**<br>
-  一款利用 AI 解析网页 HTML，快速识别网站所使用的前端框架、后端语言及相关技术栈的 Chrome 扩展。（JavaScript）
+  一款基于人工智能的Chrome扩展，可读取网页HTML自动识别所使用的技术栈。（JavaScript）
 - **[CHENJIAMIAN.github.io](https://github.com/CHENJIAMIAN/CHENJIAMIAN.github.io)**<br>
-  这是一个基于 GitHub Pages 搭建的个人博客，用于记录技术学习、项目经验和思想感悟。
+  个人博客站点，基于 GitHub Pages 搭建，用于分享技术文章和生活随笔。
 - **[CesiumLoadGoogleEarth](https://github.com/CHENJIAMIAN/CesiumLoadGoogleEarth)**<br>
-  本项目演示如何使用 Cesium 框架加载 Google Earth 影像，以在网页中实现高分辨率地球影像的浏览与交互。（HTML）
+  使用Cesium加载并展示GoogleEarth影像的演示项目（HTML）
 - **[cesiumjs-document-ai-training-data](https://github.com/CHENJIAMIAN/cesiumjs-document-ai-training-data)**<br>
-  提供 CesiumJS 文档爬虫工具及 v106 版语料库，适用于 Dify 等 AI 应用进行训练数据准备与模型调优。（Python）
+  用于爬取三维地球引擎文档并生成一零六版语料库，适用于 Dify 等 AI 应用的训练数据准备。（Python）
 - **[Cesium-Load-3DTiles-OSGB-Transformed](https://github.com/CHENJIAMIAN/Cesium-Load-3DTiles-OSGB-Transformed)**<br>
-  基于 Cesium 加载经 OSGB 转换的 3D Tiles 数据，适用于三维 GIS 可视化、空间分析及城市建模场景。（JavaScript）
+  该项目演示如何在 Cesium 中加载经 OSGB 转换得到的 3D Tiles 数据，适用于城市模型可视化与三维 GIS 应用场景（JavaScript）
 - **[campus.thingjs.com](https://github.com/CHENJIAMIAN/campus.thingjs.com)**<br>
   ThingJS 森园区本地调试副本，包含园区模型与材质资源，便于本地开发调试。（JavaScript）
 - **[BoxProjectedReflector](https://github.com/CHENJIAMIAN/BoxProjectedReflector)**<br>
-  BoxProjectedReflector 是一个与框架无关的反射效果实现，基于 three.js 的 CubeCamera 和环境贴图投影，可在普通网页中快速添加逼真的平面反射。（JavaScript）
+  该库提供框架无关的箱体投射反射效果，适用于三维场景中的实时镜面模拟。（JavaScript）
 - **[bk-job-frontend](https://github.com/CHENJIAMIAN/bk-job-frontend)**<br>
-  蓝鲸作业平台流水线前端实现，用于构建和展示作业流水线界面。（Vue）
+  蓝鲸作业平台流水线前端副本，提供作业流水线的可视化编辑与执行界面。（Vue）
 - **[agent-cli-updater](https://github.com/CHENJIAMIAN/agent-cli-updater)**<br>
-  在Windows系统中自动检测并更新代理CLI工具的PowerShell脚本（PowerShell）
+  一个在 Windows 上自动更新代理 CLI 工具的 PowerShell 脚本，实现每六小时定时升级。（PowerShell）
 - **[3d-gis-mini-mvp](https://github.com/CHENJIAMIAN/3d-gis-mini-mvp)**<br>
-  一个基于 Cesium 的 3D GIS 最小可用原型，用于展示上海地区点位、图层切换与自动巡检飞行。（HTML）
+  这是一个基于 Cesium 的 3D GIS 原型，支持上海地区点位展示、图层切换和自动巡检飞行。（HTML）
 - **[WxBuildingMaterials](https://github.com/CHENJIAMIAN/WxBuildingMaterials)**<br>
-  这是一个基于 Vant 框架的微信小程序，专注于建材在线选购与下单，提供商品展示、购物车和订单管理功能。（JavaScript）
+  这是一款基于 Vant 框架开发的微信小程序，专门用于建材行业的商品展示、在线选购和订单管理。（JavaScript）
 - **[vscode-extension-open-any-filetype-in-browser](https://github.com/CHENJIAMIAN/vscode-extension-open-any-filetype-in-browser)**<br>
-  此扩展让你在编辑器中用自定义浏览器打开任意本地文件，并支持自定义浏览器路径。（TypeScript）
+  此 VS Code 扩展支持在编辑器中使用自定义浏览器打开任意本地文件，适合快速预览各种格式。（TypeScript）
 - **[vscode-extension-multicase-search-transformer](https://github.com/CHENJIAMIAN/vscode-extension-multicase-search-transformer)**<br>
-  VS Code 多条件搜索转换扩展，能将光标处的 camelCase 或 kebab-case 单词自动转换并联合搜索所有命名风格变体。（TypeScript）
+  VS Code 扩展，能够将光标处的单词同时转换为 camelCase 和 kebab-case 形式，使用联合正则在工作区中进行多条件搜索并自动去重。（TypeScript）
 - **[vscode-extension-multi-cursor-word-match-counter](https://github.com/CHENJIAMIAN/vscode-extension-multi-cursor-word-match-counter)**<br>
-  此 VS Code 扩展可统计多光标下当前单词在文档中的匹配次数，并支持将结果追加到光标位置。（TypeScript）
+  VS Code 多光标单词匹配计数扩展，统计光标所在单词出现次数并可追加到光标。（TypeScript）
 - **[vscode-extension-multi-cursor-ai-generate](https://github.com/CHENJIAMIAN/vscode-extension-multi-cursor-ai-generate)**<br>
-  VS Code 多光标并发调用 OpenAI 兼容接口生成文本的插件，可实现批量提示词并发请求与结果插入。（TypeScript）
+  此VS Code扩展支持对多光标或多选区并发调用OpenAI兼容接口，实现批量文本生成与插入。（TypeScript）
 - **[vscode-extension-get-multi-cursor-search-results](https://github.com/CHENJIAMIAN/vscode-extension-get-multi-cursor-search-results)**<br>
-  此 VS Code 扩展可统计多光标选中单词在整个工作区的出现次数，适合代码审查、重构及搜索分析场景。（TypeScript）
+  VS Code 多光标单词频率统计插件，用于快速查看选中单词在工作区中的出现次数。（TypeScript）
 - **[TH-IDC](https://github.com/CHENJIAMIAN/TH-IDC)**<br>
   基于 Vue 的大屏数据中心监控管理前端，用于实时展示机房设备状态与资源利用情况。（Vue）
 - **[parametric-shopping-bag](https://github.com/CHENJIAMIAN/parametric-shopping-bag)**<br>
-  一个基于 Three.js 的交互式参数化 3D 购物袋模型，可调节尺寸并在展开图上放置贴图进行实时预览。（TypeScript）
+  一个基于 WebGL 的交互式参数化三维购物袋模型，可调节尺寸并实时预览贴图效果。（TypeScript）
 - **[codex-feishu-status](https://github.com/CHENJIAMIAN/codex-feishu-status)**<br>
-  将本机 Codex 会话状态、首个请求和工作目录同步到飞书卡片，方便多任务并行查看。（Go）
+  将本机 Codex 会话的实时状态、首个请求和工作目录同步到飞书卡片，方便多任务并行时快速查看进度。（Go）
 <!-- recent-projects:end -->
 
 > 更多近期更新：
