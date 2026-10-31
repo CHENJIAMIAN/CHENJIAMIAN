@@ -10,7 +10,14 @@ const RECENT_MONTHS = Number.parseInt(process.env.RECENT_PROJECT_MONTHS || '3', 
 const README_PATH = process.env.README_PATH || 'README.md';
 const GITHUB_API = process.env.GITHUB_API_URL || 'https://api.github.com';
 const LLM_BASE_URL = (process.env.LLM_BASE_URL || 'https://api.cerebras.ai/v1').replace(/\/$/, '');
-const LLM_MODEL = process.env.LLM_MODEL || 'gpt-oss-120b';
+// 支持逗号分隔的模型列表：免费模型随时可能下线，前一个不可用就换下一个
+const LLM_MODELS = (process.env.LLM_MODEL || 'gpt-oss-120b')
+  .split(',')
+  .map((item) => item.trim())
+  .filter(Boolean);
+
+// 已经确认不可用的模型，后续项目直接跳过，省得每个都撞一次 404
+const unavailableModels = new Set();
 // 免费模型按分钟限流（OpenRouter 免费档是 20 次/分钟）。这里留一点余量，
 // 用滑动窗口主动节流，而不是等撞到 429 再退避。
 const LLM_RPM_LIMIT = Number.parseInt(process.env.LLM_RPM_LIMIT || '18', 10);
@@ -243,7 +250,7 @@ function retryDelayMs(response, attempt) {
   return Math.min(60_000, 2000 * 2 ** attempt);
 }
 
-async function summarizeWithLlm(repo, topics, readmeExcerpt) {
+async function requestSummaryWithModel(model, repo, topics, readmeExcerpt) {
   const apiKey = process.env.LLM_API_KEY;
   if (!apiKey) {
     throw new Error('LLM_API_KEY is not configured');
@@ -273,7 +280,7 @@ async function summarizeWithLlm(repo, topics, readmeExcerpt) {
   }
 
   const requestBody = JSON.stringify({
-    model: LLM_MODEL,
+    model,
     messages: [
       {
         role: 'user',
@@ -316,6 +323,33 @@ async function summarizeWithLlm(repo, topics, readmeExcerpt) {
   }
 
   throw lastError ?? new Error('LLM request failed');
+}
+
+/** 按 LLM_MODELS 的顺序尝试，遇到「模型已下线/不再免费」就换下一个。 */
+async function summarizeWithLlm(repo, topics, readmeExcerpt) {
+  if (!process.env.LLM_API_KEY) {
+    throw new Error('LLM_API_KEY is not configured');
+  }
+
+  let lastError = null;
+
+  for (const model of LLM_MODELS) {
+    if (unavailableModels.has(model)) continue;
+
+    try {
+      return await requestSummaryWithModel(model, repo, topics, readmeExcerpt);
+    } catch (error) {
+      lastError = error;
+      if (/unavailable for free|not a valid model|No endpoints found|does not exist/i.test(error.message)) {
+        unavailableModels.add(model);
+        console.warn(`模型 ${model} 已不可用，后续项目跳过它`);
+        continue;
+      }
+      throw error;
+    }
+  }
+
+  throw lastError ?? new Error('没有可用的 LLM 模型');
 }
 
 async function enrichRepo(repo, { noLlm }) {
