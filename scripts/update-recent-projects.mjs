@@ -7,6 +7,11 @@ import { fileURLToPath } from 'node:url';
 const OWNER = process.env.GITHUB_OWNER || 'CHENJIAMIAN';
 const PROFILE_REPO = process.env.PROFILE_REPO || OWNER;
 const RECENT_MONTHS = Number.parseInt(process.env.RECENT_PROJECT_MONTHS || '3', 10);
+// 首页只放最近的一批；近三个月推送的仓库有 100+ 个，全量列出来既淹没有效信息，
+// 也让每次运行要调 100+ 次 LLM
+const MAX_PROJECTS = Number.parseInt(process.env.MAX_PROJECTS || '24', 10);
+// 默认复用 README 里已有的描述，只给新项目调 LLM；设为 1 强制全量重生成
+const REFRESH_ALL = process.env.LLM_REFRESH_ALL === '1';
 const README_PATH = process.env.README_PATH || 'README.md';
 const GITHUB_API = process.env.GITHUB_API_URL || 'https://api.github.com';
 const LLM_BASE_URL = (process.env.LLM_BASE_URL || 'https://api.cerebras.ai/v1').replace(/\/$/, '');
@@ -18,6 +23,7 @@ const LLM_MODELS = (process.env.LLM_MODEL || 'gpt-oss-120b')
 
 // 已经确认不可用的模型，后续项目直接跳过，省得每个都撞一次 404
 const unavailableModels = new Set();
+const modelFailures = new Map();
 // 免费模型按分钟限流（OpenRouter 免费档是 20 次/分钟）。这里留一点余量，
 // 用滑动窗口主动节流，而不是等撞到 429 再退避。
 const LLM_RPM_LIMIT = Number.parseInt(process.env.LLM_RPM_LIMIT || '18', 10);
@@ -91,6 +97,23 @@ export function formatProjectList(projects) {
       ].join('\n');
     })
     .join('\n');
+}
+
+/** 从 README 的生成区块里读出「仓库名 → 已有描述」，避免每次全量重生成。 */
+export function parseExistingSummaries(readme) {
+  const start = readme.indexOf(START_MARKER);
+  const end = readme.indexOf(END_MARKER);
+  const summaries = new Map();
+  if (start === -1 || end === -1 || end < start) return summaries;
+
+  const block = readme.slice(start + START_MARKER.length, end);
+  const pattern = /- \*\*\[([^\]]+)\]\([^)]*\)\*\*<br>\s*\n\s*(.+)/g;
+  let match = pattern.exec(block);
+  while (match !== null) {
+    summaries.set(match[1], match[2].trim());
+    match = pattern.exec(block);
+  }
+  return summaries;
 }
 
 export function fallbackSummary(repo) {
@@ -366,6 +389,18 @@ async function summarizeWithLlm(repo, topics, readmeExcerpt) {
         console.warn(`模型 ${model} 已不可用，后续项目跳过它`);
         continue;
       }
+
+      // 免费模型常常被上游限流，重试几次仍然 429 就换下一个模型，别在一个身上耗
+      if (error.message.includes('429')) {
+        const failures = (modelFailures.get(model) || 0) + 1;
+        modelFailures.set(model, failures);
+        if (failures >= 2) {
+          unavailableModels.add(model);
+          console.warn(`模型 ${model} 连续限流，后续项目跳过它`);
+        }
+        continue;
+      }
+
       throw error;
     }
   }
@@ -373,7 +408,18 @@ async function summarizeWithLlm(repo, topics, readmeExcerpt) {
   throw lastError ?? new Error('没有可用的 LLM 模型');
 }
 
-async function enrichRepo(repo, { noLlm }) {
+async function enrichRepo(repo, { noLlm, existingSummary }) {
+  // 已有描述直接复用：项目简介很少变，没必要每周重新生成一遍
+  if (existingSummary && !REFRESH_ALL) {
+    return {
+      name: repo.name,
+      html_url: repo.html_url,
+      language: repo.language,
+      summary: existingSummary,
+      usedFallback: false,
+    };
+  }
+
   const [topics, readmeExcerpt] = await Promise.all([
     fetchTopics(OWNER, repo.name),
     fetchReadmeExcerpt(OWNER, repo.name),
@@ -412,11 +458,15 @@ async function run() {
   const selected = selectRecentRepos(repos, {
     owner: PROFILE_REPO,
     recentMonths: RECENT_MONTHS,
-  });
+  }).slice(0, MAX_PROJECTS);
+  const existingSummaries = parseExistingSummaries(readme);
   const projects = [];
 
   for (const repo of selected) {
-    projects.push(await enrichRepo(repo, { noLlm: args.noLlm }));
+    projects.push(await enrichRepo(repo, {
+      noLlm: args.noLlm,
+      existingSummary: existingSummaries.get(repo.name),
+    }));
   }
 
   if (!args.noLlm && projects.every((project) => project.usedFallback)) {
