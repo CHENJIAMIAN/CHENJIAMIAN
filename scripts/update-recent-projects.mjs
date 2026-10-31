@@ -22,6 +22,12 @@ const unavailableModels = new Set();
 // 用滑动窗口主动节流，而不是等撞到 429 再退避。
 const LLM_RPM_LIMIT = Number.parseInt(process.env.LLM_RPM_LIMIT || '18', 10);
 const LLM_MAX_RETRIES = Number.parseInt(process.env.LLM_MAX_RETRIES || '4', 10);
+// 单次请求上限：免费模型偶尔会长时间不响应，没有超时整个 job 会一直挂着
+const LLM_TIMEOUT_MS = Number.parseInt(process.env.LLM_TIMEOUT_MS || '60000', 10);
+// 总时间预算：免费模型慢起来没底，超过预算后剩余项目直接用 description 兜底，
+// 保证 job 一定能在合理时间内结束
+const LLM_DEADLINE_MS = Number.parseInt(process.env.LLM_DEADLINE_MS || '1500000', 10);
+const llmDeadline = Date.now() + LLM_DEADLINE_MS;
 
 const START_MARKER = '<!-- recent-projects:start -->';
 const END_MARKER = '<!-- recent-projects:end -->';
@@ -296,11 +302,22 @@ async function requestSummaryWithModel(model, repo, topics, readmeExcerpt) {
   for (let attempt = 0; attempt <= LLM_MAX_RETRIES; attempt += 1) {
     await throttleLlmCall();
 
-    const response = await fetch(`${LLM_BASE_URL}/chat/completions`, {
-      method: 'POST',
-      headers,
-      body: requestBody,
-    });
+    let response;
+    try {
+      response = await fetch(`${LLM_BASE_URL}/chat/completions`, {
+        method: 'POST',
+        headers,
+        body: requestBody,
+        signal: AbortSignal.timeout(LLM_TIMEOUT_MS),
+      });
+    } catch (error) {
+      lastError = error;
+      if (attempt === LLM_MAX_RETRIES) break;
+      const waitMs = Math.min(60_000, 2000 * 2 ** attempt);
+      console.warn(`LLM 请求异常（${error.message}），${Math.ceil(waitMs / 1000)}s 后重试（第 ${attempt + 1}/${LLM_MAX_RETRIES} 次）`);
+      await sleep(waitMs);
+      continue;
+    }
 
     if (response.ok) {
       const data = await response.json();
@@ -329,6 +346,10 @@ async function requestSummaryWithModel(model, repo, topics, readmeExcerpt) {
 async function summarizeWithLlm(repo, topics, readmeExcerpt) {
   if (!process.env.LLM_API_KEY) {
     throw new Error('LLM_API_KEY is not configured');
+  }
+
+  if (Date.now() > llmDeadline) {
+    throw new Error('LLM 时间预算已用尽，改用 description 兜底');
   }
 
   let lastError = null;
