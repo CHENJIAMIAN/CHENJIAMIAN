@@ -37,11 +37,10 @@ jobs:
           MAX_PROJECTS: '24'
           # 设为 1 时忽略 README 里已有的描述，全部重新生成
           LLM_REFRESH_ALL: ${{ vars.LLM_REFRESH_ALL || '0' }}
-          # 2026-10-16 起改用 OpenRouter 免费模型（实测每次调用 cost=0，免费额度 1000 次/天）。
-          # 旧通道保留未删：secret「LLM_API_KEY」= Cerebras key，
-          # LLM_BASE_URL=https://api.cerebras.ai/v1，LLM_MODEL=gpt-oss-120b；
-          # 该 Cerebras 账号额度已耗尽（402 Payment required），故弃用。
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY_FREE }}
+          # 2026-10-31 起改用 DeepSeek 官方 API：免费模型（OpenRouter :free 档）上游限流严重，
+          # 24 个项目要跑 20+ 分钟还有大半失败。DeepSeek 每次运行不到 ¥0.05。
+          # 旧的免费档 secret 保留作兜底。
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY_DEEPSEEK || secrets.LLM_API_KEY_FREE }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
           LLM_HTTP_REFERER: https://cherry-ai.com
