@@ -11,6 +11,10 @@ const README_PATH = process.env.README_PATH || 'README.md';
 const GITHUB_API = process.env.GITHUB_API_URL || 'https://api.github.com';
 const LLM_BASE_URL = (process.env.LLM_BASE_URL || 'https://api.cerebras.ai/v1').replace(/\/$/, '');
 const LLM_MODEL = process.env.LLM_MODEL || 'gpt-oss-120b';
+// 免费模型按分钟限流（OpenRouter 免费档是 20 次/分钟）。这里留一点余量，
+// 用滑动窗口主动节流，而不是等撞到 429 再退避。
+const LLM_RPM_LIMIT = Number.parseInt(process.env.LLM_RPM_LIMIT || '18', 10);
+const LLM_MAX_RETRIES = Number.parseInt(process.env.LLM_MAX_RETRIES || '4', 10);
 
 const START_MARKER = '<!-- recent-projects:start -->';
 const END_MARKER = '<!-- recent-projects:end -->';
@@ -193,6 +197,52 @@ function normalizeSummary(text, repo) {
     .slice(0, 120);
 }
 
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+// 滑动窗口：保证任意 60 秒内的调用数不超过上限
+const llmCallTimestamps = [];
+
+async function throttleLlmCall() {
+  const windowMs = 60_000;
+
+  for (;;) {
+    const now = Date.now();
+    while (llmCallTimestamps.length > 0 && now - llmCallTimestamps[0] >= windowMs) {
+      llmCallTimestamps.shift();
+    }
+
+    if (llmCallTimestamps.length < LLM_RPM_LIMIT) {
+      llmCallTimestamps.push(now);
+      return;
+    }
+
+    const waitMs = windowMs - (now - llmCallTimestamps[0]) + 100;
+    console.log(`LLM 每分钟上限 ${LLM_RPM_LIMIT} 次，等待 ${Math.ceil(waitMs / 1000)}s 后再调用`);
+    await sleep(waitMs);
+  }
+}
+
+/** 429 / 5xx 之后该等多久：优先听服务端的 Retry-After 和 X-RateLimit-Reset。 */
+function retryDelayMs(response, attempt) {
+  const retryAfter = response.headers.get('retry-after');
+  if (retryAfter) {
+    const seconds = Number.parseFloat(retryAfter);
+    if (Number.isFinite(seconds) && seconds >= 0) return Math.max(1000, seconds * 1000);
+  }
+
+  const reset = response.headers.get('x-ratelimit-reset');
+  if (reset) {
+    const raw = Number.parseFloat(reset);
+    if (Number.isFinite(raw)) {
+      // 有的是秒级时间戳，有的是毫秒
+      const resetAt = raw > 1e12 ? raw : raw * 1000;
+      return Math.min(120_000, Math.max(1000, resetAt - Date.now() + 1000));
+    }
+  }
+
+  return Math.min(60_000, 2000 * 2 ** attempt);
+}
+
 async function summarizeWithLlm(repo, topics, readmeExcerpt) {
   const apiKey = process.env.LLM_API_KEY;
   if (!apiKey) {
@@ -222,30 +272,50 @@ async function summarizeWithLlm(repo, topics, readmeExcerpt) {
     });
   }
 
-  const response = await fetch(`${LLM_BASE_URL}/chat/completions`, {
-    method: 'POST',
-    headers,
-    body: JSON.stringify({
-      model: LLM_MODEL,
-      messages: [
-        {
-          role: 'user',
-          content: buildPrompt(repo, topics, readmeExcerpt),
-        },
-      ],
-      temperature: 0.2,
-      stream: false,
-    }),
+  const requestBody = JSON.stringify({
+    model: LLM_MODEL,
+    messages: [
+      {
+        role: 'user',
+        content: buildPrompt(repo, topics, readmeExcerpt),
+      },
+    ],
+    temperature: 0.2,
+    stream: false,
   });
 
-  if (!response.ok) {
-    const body = await response.text();
-    throw new Error(`LLM request failed ${response.status}: ${body.slice(0, 300)}`);
+  let lastError = null;
+
+  for (let attempt = 0; attempt <= LLM_MAX_RETRIES; attempt += 1) {
+    await throttleLlmCall();
+
+    const response = await fetch(`${LLM_BASE_URL}/chat/completions`, {
+      method: 'POST',
+      headers,
+      body: requestBody,
+    });
+
+    if (response.ok) {
+      const data = await response.json();
+      const content = data?.choices?.[0]?.message?.content;
+      return normalizeSummary(content, repo);
+    }
+
+    const responseBody = await response.text();
+    lastError = new Error(`LLM request failed ${response.status}: ${responseBody.slice(0, 300)}`);
+
+    // 只有限流和服务端错误值得重试，其余 4xx 重试也没用
+    const retryable = response.status === 429 || response.status >= 500;
+    if (!retryable || attempt === LLM_MAX_RETRIES) break;
+
+    const waitMs = retryDelayMs(response, attempt);
+    console.warn(
+      `LLM 请求被限流（${response.status}），${Math.ceil(waitMs / 1000)}s 后重试（第 ${attempt + 1}/${LLM_MAX_RETRIES} 次）`,
+    );
+    await sleep(waitMs);
   }
 
-  const data = await response.json();
-  const content = data?.choices?.[0]?.message?.content;
-  return normalizeSummary(content, repo);
+  throw lastError ?? new Error('LLM request failed');
 }
 
 async function enrichRepo(repo, { noLlm }) {
