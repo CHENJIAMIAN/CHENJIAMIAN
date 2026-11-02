@@ -32,53 +32,53 @@
 
 <!-- recent-projects:start -->
 - **[html_to_ppt](https://github.com/CHENJIAMIAN/html_to_ppt)**<br>
-  一个将 HTML 网页幻灯片高保真转换为 PowerPoint 文件的工具，适合需要把 ChatGLM 生成的网页演示快速转为可编辑 PPT 的场景。（HTML）
+  一个将 HTML 网页幻灯片高保真转换为 PowerPoint 文件的工具，适合需要把 ChatGLM 生成的网页演示快速转为可编辑 PPT 的场景。（HTML）（HTML）
 - **[threejs-timeline](https://github.com/CHENJIAMIAN/threejs-timeline)**<br>
-  这是一个基于 Three.js TSL 的可配置立体时间轴，用毛玻璃立柱沿时间轴排列展示年份数据，适合制作发展历程或年度事件的可视化页面。（JavaScript）
+  这是一个基于 Three.js TSL 的可配置立体时间轴，用毛玻璃立柱沿时间轴排列展示年份数据，适合制作发展历程或年度事件的可视化页面。（JavaScript）（JavaScript）
 - **[dsh-session-switch](https://github.com/CHENJIAMIAN/dsh-session-switch)**<br>
-  为 DSH 桌面版提供 Ctrl+Tab 快捷键，在当前会话与上一个会话之间快速来回切换，适合需要频繁对照两个会话内容的场景。（JavaScript）
+  为 DSH 桌面版提供 Ctrl+Tab 快捷键，在当前会话与上一个会话之间快速来回切换，适合需要频繁对照两个会话内容的场景。（JavaScript）（JavaScript）
 - **[dsh-continue-button](https://github.com/CHENJIAMIAN/dsh-continue-button)**<br>
-  为 DeepSeek Harness 输入框增加一个文本可编辑的一键发送按钮，默认发送「继续」，省去重复输入常用提问的步骤。（JavaScript）
+  为 DeepSeek Harness 输入框增加一个文本可编辑的一键发送按钮，默认发送「继续」，省去重复输入常用提问的步骤。（JavaScript）（JavaScript）
 - **[Blog](https://github.com/CHENJIAMIAN/Blog)**<br>
   这是一个 Obsidian 笔记库，通过 GitHub Actions 自动构建并部署 VitePress 博客，适合想用笔记直接生成个人博客的写作者。
 - **[GAMES102-subtitles](https://github.com/CHENJIAMIAN/GAMES102-subtitles)**<br>
   GAMES102 几何建模与处理课程全部 15 集中文字幕合集，提供 SRT 文件及配套总结，便于配合视频学习与复习。
 - **[agent-cli-updater](https://github.com/CHENJIAMIAN/agent-cli-updater)**<br>
-  这是一个在 Windows 上自动更新代理 CLI 工具的 PowerShell 脚本，适合需要定时保持命令行工具为最新版本的开发者使用。（PowerShell）
+  这是一个在 Windows 上自动更新代理 CLI 工具的 PowerShell 脚本，适合需要定时保持命令行工具为最新版本的开发者使用。（PowerShell）（PowerShell）
 - **[bmap-singlehtml](https://github.com/CHENJIAMIAN/bmap-singlehtml)**<br>
-  这是一个百度地图与 MapV 的纯 HTML 单页示例集合，打开页面并填入自己的浏览器端 AK 即可运行，适合快速上手 WebGIS 可视化开发。（HTML）
+  这是一个百度地图与 MapV 的纯 HTML 单页示例集合，打开页面并填入自己的浏览器端 AK 即可运行，适合快速上手 WebGIS 可视化开发。（HTML）（HTML）
 - **[awesome-chatgpt-prompts-zh-CN](https://github.com/CHENJIAMIAN/awesome-chatgpt-prompts-zh-CN)**<br>
-  这是一个将上游两千余条 ChatGPT 提示词完整翻译为简体中文的合集，并附 AIPRM 提示词库快照，提供 CSV、JSON、Markdown 等多种格式，方便中文用户检索、复制或作为数据集使用。（HTML）
+  这是一个将上游两千余条 ChatGPT 提示词完整翻译为简体中文的合集，并附 AIPRM 提示词库快照，提供 CSV、JSON、Markdown 等多种格式，方便中文用户检索、复制或作为数据集使用。（HTML）（HTML）
 - **[commandcode-proxy](https://github.com/CHENJIAMIAN/commandcode-proxy)**<br>
-  将 Command Code API 反向代理为 OpenAI 与 Anthropic 兼容接口，支持模型白名单，便于在现有客户端中直接接入使用。（JavaScript）
+  将 Command Code API 反向代理为 OpenAI 与 Anthropic 兼容接口，支持模型白名单，便于在现有客户端中直接接入使用。（JavaScript）（JavaScript）
 - **[ht-vs-threejs](https://github.com/CHENJIAMIAN/ht-vs-threejs)**<br>
   这是一份 16 章的对比文档，逐层拆解 HT for Web 与 Three.js 在数据模型、渲染管线、着色器、动画与插件机制上的实现差异，帮助开发者看清两者架构边界与迁移要点。
 - **[bambu-studio-analysis](https://github.com/CHENJIAMIAN/bambu-studio-analysis)**<br>
   本仓库是拓竹 Bambu Studio 切片软件的只读源码分析笔记，聚焦可打印性修复与非流形处理机制，适合想了解其网格修复管线和整体技术栈的开发者阅读。
 - **[dasd.noqbl.com](https://github.com/CHENJIAMIAN/dasd.noqbl.com)**<br>
-  DASD 网站及其静态资源的本地归档，供学习研究时离线查阅与参考。（JavaScript）
+  DASD 网站及其静态资源的本地归档，供学习研究时离线查阅与参考。（JavaScript）（JavaScript）
 - **[kyberswap-official-website-sourcecode](https://github.com/CHENJIAMIAN/kyberswap-official-website-sourcecode)**<br>
-  这是一个归档 KyberSwap 2022 年 3 月官网源码的仓库，供学习研究去中心化交易所前端实现与价格影响计算逻辑参考。（TypeScript）
+  这是一个归档 KyberSwap 2022 年 3 月官网源码的仓库，供学习研究去中心化交易所前端实现与价格影响计算逻辑参考。（TypeScript）（TypeScript）
 - **[Trae-System-Prompt](https://github.com/CHENJIAMIAN/Trae-System-Prompt)**<br>
   该仓库用于获取 Trae IDE 的系统提示词，供学习研究和技术交流，帮助开发者了解其智能体规则与工具机制。
 - **[wechat-get](https://github.com/CHENJIAMIAN/wechat-get)**<br>
-  wechat-get 是一个基于 Node.js 的命令行工具，用于绕过微信文章的验证限制，获取公众号完整原文，支持单篇与批量抓取并导出为 JSON 或 TXT，适合需要归档或研究微信内容的场景。（JavaScript）
+  wechat-get 是一个基于 Node.js 的命令行工具，用于绕过微信文章的验证限制，获取公众号完整原文，支持单篇与批量抓取并导出为 JSON 或 TXT，适合需要归档或研究微信内容的场景。（JavaScript）（JavaScript）
 - **[xt3d-Situation-Command-of-Public-Security-Exercises](https://github.com/CHENJIAMIAN/xt3d-Situation-Command-of-Public-Security-Exercises)**<br>
-  这是一个基于 Cesium.js 与 xt3d.js 的公安演练三维态势指挥平台部署版源码归档，包含 3DTiles 与 gltf 资源，适合学习三维 GIS 可视化与指挥场景实现。（JavaScript）
+  这是一个基于 Cesium.js 与 xt3d.js 的公安演练三维态势指挥平台部署版源码归档，包含 3DTiles 与 gltf 资源，适合学习三维 GIS 可视化与指挥场景实现。（JavaScript）（JavaScript）
 - **[xt3d-local-debug](https://github.com/CHENJIAMIAN/xt3d-local-debug)**<br>
-  本项目归档非开源 Cesium 扩展 xt3d.js 的库本体、官方演示源码与 API 文档，供本地调试和逆向学习研究使用。（JavaScript）
+  本项目归档非开源 Cesium 扩展 xt3d.js 的库本体、官方演示源码与 API 文档，供本地调试和逆向学习研究使用。（JavaScript）（JavaScript）
 - **[finemaxdemo.fanruan.com](https://github.com/CHENJIAMIAN/finemaxdemo.fanruan.com)**<br>
-  本仓库对帆软 Calder 可视化引擎进行逆向研究，解析其 JSON 与资源结构，并附带一个 3D 产线流程看板演示，供学习与技术交流使用。（Roff）
+  本仓库对帆软 Calder 可视化引擎进行逆向研究，解析其 JSON 与资源结构，并附带一个 3D 产线流程看板演示，供学习与技术交流使用。（Roff）（Roff）
 - **[imdc.ncpi_om.com](https://github.com/CHENJIAMIAN/imdc.ncpi_om.com)**<br>
-  施耐德数据中心演示的逆向研究副本，包含液冷管路流动、温度云图、气流与电力潮流模拟等效果的实现分析，适合学习三维可视化技术。（JavaScript）
+  施耐德数据中心演示的逆向研究副本，包含液冷管路流动、温度云图、气流与电力潮流模拟等效果的实现分析，适合学习三维可视化技术。（JavaScript）（JavaScript）
 - **[reverse-uiotos-community](https://github.com/CHENJIAMIAN/reverse-uiotos-community)**<br>
-  本仓库是对 UIOTOS 社区版零代码前端平台的逆向研究记录，包含可运行快照与核心实现分析，供学习页面嵌套和逻辑连线机制参考。（JavaScript）
+  本仓库是对 UIOTOS 社区版零代码前端平台的逆向研究记录，包含可运行快照与核心实现分析，供学习页面嵌套和逻辑连线机制参考。（JavaScript）（JavaScript）
 - **[GAMES101](https://github.com/CHENJIAMIAN/GAMES101)**<br>
-  GAMES101 课程的中文结构化笔记合集，含源字幕与批量总结脚本，适合复习图形学重点、检索概念公式或校对扩写笔记。（SRecode Template）
+  GAMES101 课程的中文结构化笔记合集，含源字幕与批量总结脚本，适合复习图形学重点、检索概念公式或校对扩写笔记。（SRecode Template）（SRecode Template）
 - **[workday-dashboard](https://github.com/CHENJIAMIAN/workday-dashboard)**<br>
-  WorkDay 是一个面向办公室与知识工作者的工作日时间看板，通过下班倒计时、剩余时间拆分和长期事项管理，帮助用户更清楚地安排每天的工作节奏。（TypeScript）
+  WorkDay 是一个面向办公室与知识工作者的工作日时间看板，通过下班倒计时、剩余时间拆分和长期事项管理，帮助用户更清楚地安排每天的工作节奏。（TypeScript）（TypeScript）
 - **[codex-ai-replies-cli](https://github.com/CHENJIAMIAN/codex-ai-replies-cli)**<br>
-  一个读取本机 Codex 会话记录的命令行工具，将 JSONL 历史转换为可读输出，便于查看助手回复、工具调用和 MCP 活动。（JavaScript）
+  一个读取本机 Codex 会话记录的命令行工具，将 JSONL 历史转换为可读输出，便于查看助手回复、工具调用和 MCP 活动。（JavaScript）（JavaScript）
 <!-- recent-projects:end -->
 
 > 更多近期更新：
